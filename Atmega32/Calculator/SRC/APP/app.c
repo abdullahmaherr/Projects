@@ -33,7 +33,7 @@ int main(void)
 		{
 			number *= 10;
 			number +=((uint32_t)input);
-			HAL_LCD_IntgerToString(number);
+			HAL_LCD_IntgerToString(input);
 
 		}else if((input == '+') || (input == '-') || (input =='*') || (input =='%'))
 		{
@@ -63,7 +63,7 @@ int main(void)
 			HAL_LCD_DisplayCharacter('=');
 
 			/*Printing The Result*/
-			HAL_LCD_MoveCursor(1,8);
+			HAL_LCD_MoveCursor(1,3);
 			HAL_LCD_IntgerToString(result);
 			_delay_ms(2000);
 
@@ -77,7 +77,7 @@ int main(void)
 			number = 0; result = 0; operation = 0;
 
 		}
-		_delay_ms(150);
+		_delay_ms(180);
 	}
 }
 
