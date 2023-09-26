@@ -18,4 +18,4 @@ The calculator is operated using the following buttons:
 ## Conclusion
 This project is a good starting point for learning how to program the Atmega32 microcontroller. The calculator is a simple and straight forward project that can be easily implemented and modified.
 
-![alt text]()
+![alt text](https://github.com/abdullahmaherr/Projects/blob/main/Atmega32/Calculator/SIM/SIM.png)
