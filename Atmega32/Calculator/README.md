@@ -1,5 +1,7 @@
 # Simple Calculator
 This project is a simple calculator implemented in C and programmed onto an Atmega32 microcontroller.
+
+## Description
 The calculator can perform basic arithmetic operations, including addition, subtraction, multiplication, and division.
 
 ## Getting started
