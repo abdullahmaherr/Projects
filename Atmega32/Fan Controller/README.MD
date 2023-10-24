@@ -40,4 +40,4 @@ To build and run the Fan Controller project, you will need the following compone
 
 The Fan Controller project provides an efficient and automated solution for controlling fan speed based on temperature readings. By following the instructions provided in this readme file, you should be able to build and run the project successfully. Feel free to customize and enhance the project according to your requirements.
 
-![alt text]()
+![alt text](https://github.com/abdullahmaherr/Projects/blob/main/Atmega32/Fan%20Controller/Fan.png)
