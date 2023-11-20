@@ -64,3 +64,4 @@ The CONTROL_ECU is the brain of the system, responsible for processing and decis
 ## Future Enhancements
 Explore potential enhancements such as Remember The System Login , additional security layers.
 
+![alt text](https://github.com/abdullahmaherr/Projects/blob/main/Atmega32/Door%20Locker%20Security%20System/SIM/DLSS.png)
