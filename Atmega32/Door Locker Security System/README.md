@@ -1,6 +1,6 @@
 # Door Locker Security System
 
-##Project Overview
+## Project Overview
 The Door Locker Security System is a ATmega32 microcontroller-based security system designed to control access to a secured area using a password-protected mechanism. The project utilizes two ATmega32 microcontrollers operating at a frequency of 8MHz and is structured based on a layered architecture for modularity and efficient design.
 
 - HMI_ECU (Human-Machine Interface)
@@ -9,7 +9,7 @@ The HMI_ECU is responsible for user interaction. It receives inputs from the key
 - CONTROL_ECU (Control Electronic Control Unit)
 The CONTROL_ECU is the brain of the system, responsible for processing and decision-making. It handles tasks such as password validation, door opening, and system alarm activation. This unit ensures the security and proper functioning of the Door Locker Security System.
 
-##System Operation Sequence
+## System Operation Sequence
 Step 1 : Create a System Password:
 			1) The LCD should display "ENTER NEW PASS".
 			2) Enter a password consists of 5 numbers, Display * in the screen for each number.
@@ -53,7 +53,7 @@ Step 5 : if the two passwords are unmatched at step 3 (Open Door) or step 4 (Cha
 				- System should be locked no inputs from Keypad will be accepted during this time period.
 				- Go to Step 2 the main options again.
 				
-##Components
+## Components
 1. ATmega32 Microcontrollers
 2. LCD 2x16
 3. 4x4 Keypad
@@ -61,6 +61,6 @@ Step 5 : if the two passwords are unmatched at step 3 (Open Door) or step 4 (Cha
 5. Buzzer
 6. DC Motor
 
-##Future Enhancements
+## Future Enhancements
 Explore potential enhancements such as Remember The System Login , additional security layers.
 
