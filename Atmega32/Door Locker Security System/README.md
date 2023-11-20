@@ -10,7 +10,7 @@ The HMI_ECU is responsible for user interaction. It receives inputs from the key
 The CONTROL_ECU is the brain of the system, responsible for processing and decision-making. It handles tasks such as password validation, door opening, and system alarm activation. This unit ensures the security and proper functioning of the Door Locker Security System.
 
 ## System Operation Sequence
-Step 1 : Create a System Password:
+ Step 1 : Create a System Password:
 			1) The LCD should display "ENTER NEW PASS".
 			2) Enter a password consists of 5 numbers, Display * in the screen for each number.
 			3) Press enter button (ON Button).
@@ -20,13 +20,13 @@ Step 1 : Create a System Password:
 			7) HMI_ECU should send the two passwords to the Control_ECU through the UART.
 			8) If the two passwords are matched then the system has a password now and save it inside the EEPORM and go to Step 2.
 			9) If the two passwords are unmatched then repeat step 1 again.
-Step 2 : Main Options:
+ Step 2 : Main Options:
 			1) The LCD will always display the main system option.
 				"+ : OPEN DOOR"
 				"- : CHANGE PASS"
 			2) If the user selects the option to open the door go to Step 3
 			3) If the user chooses to change the password go to Step 4
-Step 3 : Open Door:
+ Step 3 : Open Door:
 			1) The LCD should display "ENTER PASSWORD".
 			2) Enter the password then press enter button (ON Button).
 			3) HMI_ECU should send the Password to the Control_ECU and it should compare it with the one saved in the EEPROM.
@@ -34,13 +34,13 @@ Step 3 : Open Door:
 				- rotates motor for 15-seconds CW and display a message on the screen "DOOR IS OPENING".
 				- hold the motor for 3-seconds.
 				- rotates motor for 15-seconds A-CW and display a message on the screen "DOOR IS CLOSEING".
-Step 4 : Change Password:
+ Step 4 : Change Password:
 			1) The LCD should display "ENTER PASSWORD".
 			2) Enter the password then press enter button (ON Button).
 			3) HMI_ECU should send the Password to the Control_ECU and it should compare it with the one saved in the EEPROM.
 			4) If two passwords are matched:
 				- Repeat Step 1.
-Step 5 : if the two passwords are unmatched at step 3 (Open Door) or step 4 (Change Password).
+ Step 5 : if the two passwords are unmatched at step 3 (Open Door) or step 4 (Change Password).
 			1) Ask the user one more time for the password.
 			2) Enter the password then press enter button (ON Button).
 			3) HMI_ECU should send the Password to the Control_ECU and it should compare it with the one saved in the EEPROM.
