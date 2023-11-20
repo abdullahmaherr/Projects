@@ -3,7 +3,7 @@
  *
  * Author: Abdullah Maher
  *
- * Description : Source File of a Fan Controller.
+ * Description : Source File of a Distance Measuring System Application .
  *
  * Created on: May 1, 2023
  =============================================================================================*/
