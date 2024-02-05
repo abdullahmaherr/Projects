@@ -1,0 +1,94 @@
+/*============================================================================================
+ * Module : servo_motor
+ *
+ * File Name : servo_motor.c
+ *
+ * Author: Abdullah Maher
+ *
+ * Description : Source File Of servo_motor Driver
+ *
+ * Created on: May 1, 2023
+ =============================================================================================*/
+
+
+/*===============================================================================
+ *                                 Includes                                      *
+ ================================================================================*/
+#include "servo_motor.h"
+#include "stm32f103c8_gpio_driver.h"
+#include "stm32f103c8_tim_driver.h"
+/*===============================================================================
+ *                            		MACROS		                                 *
+ ================================================================================*/
+
+/*===============================================================================
+ *                              Global Variables                                 *
+ ================================================================================*/
+typedef enum
+{
+	GATE_OPEN,GATE_CLOSE
+}Gate_State;
+/*===============================================================================
+ *                          Private Function Prototypes	   		                 *
+ ================================================================================*/
+
+/*===============================================================================
+ *                              API Definitions                                  *
+ ================================================================================*/
+void Servo1_Entry_Gate_Init(void)
+{
+	/*SERVO MOTOR 1*/
+	GPIO_PinConfig_t config;
+	config.GPIO_PinNumber = GPIO_PIN8;
+	config.GPIO_Mode = GPIO_MODE_OUTPUT_PUSHPULL;
+	config.GPIO_Output_Speed = GPIO_OUTPUT_SPEED_10M;
+	MCAL_GPIO_Init(GPIOB, &config);
+}
+
+void Servo1_Entry_Gate(Gate_State Gate_Status)
+{
+	if(Gate_Status == GATE_OPEN)
+	{
+		MCAL_GPIO_WritePin(GPIOB, GPIO_PIN8, LOGIC_HIGH);
+		Delay_us(500);
+		MCAL_GPIO_WritePin(GPIOB, GPIO_PIN8, LOGIC_LOW);
+	}
+	else if(Gate_Status == GATE_CLOSE)
+	{
+		MCAL_GPIO_WritePin(GPIOB, GPIO_PIN8, LOGIC_HIGH);
+		Delay_us(1488);
+		MCAL_GPIO_WritePin(GPIOB, GPIO_PIN8, LOGIC_LOW);
+	}
+}
+
+
+void Servo2_Exit_Gate_Init(void)
+{
+	/*SERVO MOTOR 2*/
+	GPIO_PinConfig_t config;
+	config.GPIO_PinNumber = GPIO_PIN9;
+	config.GPIO_Mode = GPIO_MODE_OUTPUT_PUSHPULL;
+	config.GPIO_Output_Speed = GPIO_OUTPUT_SPEED_10M;
+	MCAL_GPIO_Init(GPIOB, &config);
+}
+
+
+void Servo2_Exit_Gate(Gate_State Gate_Status)
+{
+	if(Gate_Status == GATE_OPEN)
+	{
+		MCAL_GPIO_WritePin(GPIOB, GPIO_PIN9, LOGIC_HIGH);
+		Delay_us(500);
+		MCAL_GPIO_WritePin(GPIOB, GPIO_PIN9, LOGIC_LOW);
+	}
+	else if(Gate_Status == GATE_CLOSE)
+	{
+		MCAL_GPIO_WritePin(GPIOB, GPIO_PIN9, LOGIC_HIGH);
+		Delay_us(1488);
+		MCAL_GPIO_WritePin(GPIOB, GPIO_PIN9, LOGIC_LOW);
+	}
+}
+
+/*===============================================================================
+ *                       		 ISR Functions  		                         *
+ ================================================================================*/

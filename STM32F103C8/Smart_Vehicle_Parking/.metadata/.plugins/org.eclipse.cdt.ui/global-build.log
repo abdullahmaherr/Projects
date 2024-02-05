@@ -1,0 +1,1519 @@
+17:48:06 **** Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 -mcpu=cortex-m3 -g3 -c -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c8tx.d" -MT"Startup/startup_stm32f103c8tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c8tx.o" "../Startup/startup_stm32f103c8tx.s"
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 "../Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc -gdwarf-2 "../Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/USART/stm32f103c8_usart_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/USART/stm32f103c8_usart_driver.d" -MT"Drivers/MCAL/USART/stm32f103c8_usart_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/USART/stm32f103c8_usart_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/TIM/stm32f103c8_tim_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/TIM/stm32f103c8_tim_driver.d" -MT"Drivers/MCAL/TIM/stm32f103c8_tim_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/TIM/stm32f103c8_tim_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/SPI/stm32f103c8_spi_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/SPI/stm32f103c8_spi_driver.d" -MT"Drivers/MCAL/SPI/stm32f103c8_spi_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/SPI/stm32f103c8_spi_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/RCC/stm32f103c8_rcc_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/RCC/stm32f103c8_rcc_driver.d" -MT"Drivers/MCAL/RCC/stm32f103c8_rcc_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/RCC/stm32f103c8_rcc_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/I2C/stm32f103c8_i2c_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/I2C/stm32f103c8_i2c_driver.d" -MT"Drivers/MCAL/I2C/stm32f103c8_i2c_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/I2C/stm32f103c8_i2c_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/GPIO/stm32f103c8_gpio_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/GPIO/stm32f103c8_gpio_driver.d" -MT"Drivers/MCAL/GPIO/stm32f103c8_gpio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/GPIO/stm32f103c8_gpio_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/EXTI/stm32f103c8_exti_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/EXTI/stm32f103c8_exti_driver.d" -MT"Drivers/MCAL/EXTI/stm32f103c8_exti_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/EXTI/stm32f103c8_exti_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/Mototrs/Servo_Motors/servo_motor.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/Mototrs/Servo_Motors/servo_motor.d" -MT"Drivers/HAL/Mototrs/Servo_Motors/servo_motor.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/Mototrs/Servo_Motors/servo_motor.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/LCD/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/LCD/lcd.d" -MT"Drivers/HAL/LCD/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/LCD/lcd.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/Keypad/keypad.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/Keypad/keypad.d" -MT"Drivers/HAL/Keypad/keypad.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/Keypad/keypad.o"
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Smart_Vehicle_Parking.elf
+ 
+arm-none-eabi-size   Smart_Vehicle_Parking.elf 
+arm-none-eabi-objdump -h -S  Smart_Vehicle_Parking.elf  > "Smart_Vehicle_Parking.list"
+arm-none-eabi-objcopy  -O binary  Smart_Vehicle_Parking.elf  "Smart_Vehicle_Parking.bin"
+   text	   data	    bss	    dec	    hex	filename
+   1436	      8	   1744	   3188	    c74	Smart_Vehicle_Parking.elf
+Finished building: default.size.stdout
+ 
+Finished building: Smart_Vehicle_Parking.bin
+ 
+Finished building: Smart_Vehicle_Parking.list
+ 
+17:49:19 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Smart_Vehicle_Parking.elf
+ 
+arm-none-eabi-objdump -h -S  Smart_Vehicle_Parking.elf  > "Smart_Vehicle_Parking.list"
+arm-none-eabi-objcopy  -O binary  Smart_Vehicle_Parking.elf  "Smart_Vehicle_Parking.bin"
+arm-none-eabi-size   Smart_Vehicle_Parking.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1436	      8	   1744	   3188	    c74	Smart_Vehicle_Parking.elf
+Finished building: default.size.stdout
+ 
+Finished building: Smart_Vehicle_Parking.bin
+Finished building: Smart_Vehicle_Parking.list
+ 
+ 
+18:11:45 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/Mototrs/Servo_Motors/servo_motor.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/Mototrs/Servo_Motors/servo_motor.d" -MT"Drivers/HAL/Mototrs/Servo_Motors/servo_motor.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/Mototrs/Servo_Motors/servo_motor.o"
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Smart_Vehicle_Parking.elf
+ 
+arm-none-eabi-objdump -h -S  Smart_Vehicle_Parking.elf  > "Smart_Vehicle_Parking.list"
+arm-none-eabi-objcopy  -O binary  Smart_Vehicle_Parking.elf  "Smart_Vehicle_Parking.bin"
+arm-none-eabi-size   Smart_Vehicle_Parking.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1436	      8	   1744	   3188	    c74	Smart_Vehicle_Parking.elf
+Finished building: default.size.stdout
+ 
+Finished building: Smart_Vehicle_Parking.bin
+ 
+Finished building: Smart_Vehicle_Parking.list
+ 
+18:56:45 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/Mototrs/Servo_Motors/servo_motor.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/Mototrs/Servo_Motors/servo_motor.d" -MT"Drivers/HAL/Mototrs/Servo_Motors/servo_motor.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/Mototrs/Servo_Motors/servo_motor.o"
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Smart_Vehicle_Parking.elf
+ 
+arm-none-eabi-objdump -h -S  Smart_Vehicle_Parking.elf  > "Smart_Vehicle_Parking.list"
+arm-none-eabi-objcopy  -O binary  Smart_Vehicle_Parking.elf  "Smart_Vehicle_Parking.bin"
+arm-none-eabi-size   Smart_Vehicle_Parking.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1436	      8	   1744	   3188	    c74	Smart_Vehicle_Parking.elf
+Finished building: default.size.stdout
+ 
+Finished building: Smart_Vehicle_Parking.bin
+ 
+Finished building: Smart_Vehicle_Parking.list
+ 
+19:39:07 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Smart_Vehicle_Parking.elf
+ 
+arm-none-eabi-objdump -h -S  Smart_Vehicle_Parking.elf  > "Smart_Vehicle_Parking.list"
+arm-none-eabi-objcopy  -O binary  Smart_Vehicle_Parking.elf  "Smart_Vehicle_Parking.bin"
+arm-none-eabi-size   Smart_Vehicle_Parking.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1436	      8	   1744	   3188	    c74	Smart_Vehicle_Parking.elf
+Finished building: default.size.stdout
+ 
+Finished building: Smart_Vehicle_Parking.bin
+ 
+Finished building: Smart_Vehicle_Parking.list
+ 
+19:58:50 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/LCD/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/LCD/lcd.d" -MT"Drivers/HAL/LCD/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/LCD/lcd.o"
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_kick':
+../Drivers/HAL/LCD/lcd.c:54:71: error: 'GPIO_PIN_TRUE' undeclared (first use in this function); did you mean 'GPIO_PIN12'?
+  MCAL_GPIO_WritePin(LCD->s_LCDCtrlPins.GPIOX,LCD->s_LCDCtrlPins.enpin,GPIO_PIN_TRUE);
+                                                                       ^~~~~~~~~~~~~
+                                                                       GPIO_PIN12
+../Drivers/HAL/LCD/lcd.c:54:71: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/HAL/LCD/lcd.c:56:71: error: 'GPIO_PIN_FALSE' undeclared (first use in this function); did you mean 'GPIO_PIN_TRUE'?
+  MCAL_GPIO_WritePin(LCD->s_LCDCtrlPins.GPIOX,LCD->s_LCDCtrlPins.enpin,GPIO_PIN_FALSE);
+                                                                       ^~~~~~~~~~~~~~
+                                                                       GPIO_PIN_TRUE
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_init':
+../Drivers/HAL/LCD/lcd.c:61:52: error: 'GPIO_MODE_OUTPUT_PP' undeclared (first use in this function); did you mean 'GPIO_MODE_OUTPUT_PUSHPULL'?
+  GPIO_PinConfig_t pin = {LCD->s_LCDCtrlPins.enpin ,GPIO_MODE_OUTPUT_PP, GPIO_SPEED_10M};
+                                                    ^~~~~~~~~~~~~~~~~~~
+                                                    GPIO_MODE_OUTPUT_PUSHPULL
+../Drivers/HAL/LCD/lcd.c:61:73: error: 'GPIO_SPEED_10M' undeclared (first use in this function); did you mean 'GPIO_PIN10'?
+  GPIO_PinConfig_t pin = {LCD->s_LCDCtrlPins.enpin ,GPIO_MODE_OUTPUT_PP, GPIO_SPEED_10M};
+                                                                         ^~~~~~~~~~~~~~
+                                                                         GPIO_PIN10
+../Drivers/HAL/LCD/lcd.c:63:6: error: 'GPIO_PinConfig_t {aka struct <anonymous>}' has no member named 'GPIO_Pin_Number'; did you mean 'GPIO_PinNumber'?
+  pin.GPIO_Pin_Number = LCD->s_LCDCtrlPins.rspin;
+      ^~~~~~~~~~~~~~~
+      GPIO_PinNumber
+../Drivers/HAL/LCD/lcd.c:70:8: error: 'GPIO_PinConfig_t {aka struct <anonymous>}' has no member named 'GPIO_Pin_Number'; did you mean 'GPIO_PinNumber'?
+    pin.GPIO_Pin_Number = LCD->s_LCDDataPins.DataPinStart << i;
+        ^~~~~~~~~~~~~~~
+        GPIO_PinNumber
+../Drivers/HAL/LCD/lcd.c:77:8: error: 'GPIO_PinConfig_t {aka struct <anonymous>}' has no member named 'GPIO_Pin_Number'; did you mean 'GPIO_PinNumber'?
+    pin.GPIO_Pin_Number = LCD->s_LCDDataPins.DataPinStart << i;
+        ^~~~~~~~~~~~~~~
+        GPIO_PinNumber
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_sendchar':
+../Drivers/HAL/LCD/lcd.c:97:3: warning: implicit declaration of function 'MCAL_GPIO_WriteGroup'; did you mean 'MCAL_GPIO_WritePort'? [-Wimplicit-function-declaration]
+   MCAL_GPIO_WriteGroup(LCD->s_LCDDataPins.GPIOX
+   ^~~~~~~~~~~~~~~~~~~~
+   MCAL_GPIO_WritePort
+../Drivers/HAL/LCD/lcd.c:102:73: error: 'GPIO_PIN_FALSE' undeclared (first use in this function); did you mean 'GPIO_PIN12'?
+    MCAL_GPIO_WritePin(LCD->s_LCDCtrlPins.GPIOX,LCD->s_LCDCtrlPins.rspin,GPIO_PIN_FALSE);
+                                                                         ^~~~~~~~~~~~~~
+                                                                         GPIO_PIN12
+../Drivers/HAL/LCD/lcd.c:105:73: error: 'GPIO_PIN_TRUE' undeclared (first use in this function); did you mean 'GPIO_PIN_FALSE'?
+    MCAL_GPIO_WritePin(LCD->s_LCDCtrlPins.GPIOX,LCD->s_LCDCtrlPins.rspin,GPIO_PIN_TRUE);
+                                                                         ^~~~~~~~~~~~~
+                                                                         GPIO_PIN_FALSE
+../Drivers/HAL/LCD/lcd.c:138:24: error: 'LINE_DIGITS' undeclared (first use in this function)
+    if(LCD->Ch_Counter==LINE_DIGITS)
+                        ^~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_gotoxy':
+../Drivers/HAL/LCD/lcd.c:187:20: error: 'LINE_DIGITS' undeclared (first use in this function)
+  LCD->Ch_Counter=y*LINE_DIGITS+x;
+                    ^~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c: At top level:
+../Drivers/HAL/LCD/lcd.c:45:13: warning: 'LCD_delay' used but never defined
+ static void LCD_delay(int delay);
+             ^~~~~~~~~
+make: *** [Drivers/HAL/LCD/subdir.mk:18: Drivers/HAL/LCD/lcd.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+20:00:30 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/LCD/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/LCD/lcd.d" -MT"Drivers/HAL/LCD/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/LCD/lcd.o"
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_init':
+../Drivers/HAL/LCD/lcd.c:61:52: error: 'GPIO_MODE_OUTPUT_PP' undeclared (first use in this function); did you mean 'GPIO_MODE_OUTPUT_PUSHPULL'?
+  GPIO_PinConfig_t pin = {LCD->s_LCDCtrlPins.enpin ,GPIO_MODE_OUTPUT_PP, GPIO_SPEED_10M};
+                                                    ^~~~~~~~~~~~~~~~~~~
+                                                    GPIO_MODE_OUTPUT_PUSHPULL
+../Drivers/HAL/LCD/lcd.c:61:52: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/HAL/LCD/lcd.c:61:73: error: 'GPIO_SPEED_10M' undeclared (first use in this function); did you mean 'GPIO_PIN10'?
+  GPIO_PinConfig_t pin = {LCD->s_LCDCtrlPins.enpin ,GPIO_MODE_OUTPUT_PP, GPIO_SPEED_10M};
+                                                                         ^~~~~~~~~~~~~~
+                                                                         GPIO_PIN10
+../Drivers/HAL/LCD/lcd.c:63:6: error: 'GPIO_PinConfig_t {aka struct <anonymous>}' has no member named 'GPIO_Pin_Number'; did you mean 'GPIO_PinNumber'?
+  pin.GPIO_Pin_Number = LCD->s_LCDCtrlPins.rspin;
+      ^~~~~~~~~~~~~~~
+      GPIO_PinNumber
+../Drivers/HAL/LCD/lcd.c:70:8: error: 'GPIO_PinConfig_t {aka struct <anonymous>}' has no member named 'GPIO_Pin_Number'; did you mean 'GPIO_PinNumber'?
+    pin.GPIO_Pin_Number = LCD->s_LCDDataPins.DataPinStart << i;
+        ^~~~~~~~~~~~~~~
+        GPIO_PinNumber
+../Drivers/HAL/LCD/lcd.c:77:8: error: 'GPIO_PinConfig_t {aka struct <anonymous>}' has no member named 'GPIO_Pin_Number'; did you mean 'GPIO_PinNumber'?
+    pin.GPIO_Pin_Number = LCD->s_LCDDataPins.DataPinStart << i;
+        ^~~~~~~~~~~~~~~
+        GPIO_PinNumber
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_sendchar':
+../Drivers/HAL/LCD/lcd.c:97:3: warning: implicit declaration of function 'MCAL_GPIO_WriteGroup'; did you mean 'MCAL_GPIO_WritePort'? [-Wimplicit-function-declaration]
+   MCAL_GPIO_WriteGroup(LCD->s_LCDDataPins.GPIOX
+   ^~~~~~~~~~~~~~~~~~~~
+   MCAL_GPIO_WritePort
+../Drivers/HAL/LCD/lcd.c:138:24: error: 'LINE_DIGITS' undeclared (first use in this function)
+    if(LCD->Ch_Counter==LINE_DIGITS)
+                        ^~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_gotoxy':
+../Drivers/HAL/LCD/lcd.c:187:20: error: 'LINE_DIGITS' undeclared (first use in this function)
+  LCD->Ch_Counter=y*LINE_DIGITS+x;
+                    ^~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c: At top level:
+../Drivers/HAL/LCD/lcd.c:45:13: warning: 'LCD_delay' used but never defined
+ static void LCD_delay(int delay);
+             ^~~~~~~~~
+make: *** [Drivers/HAL/LCD/subdir.mk:18: Drivers/HAL/LCD/lcd.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+20:02:46 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/LCD/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/LCD/lcd.d" -MT"Drivers/HAL/LCD/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/LCD/lcd.o"
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_init':
+../Drivers/HAL/LCD/lcd.c:63:6: error: 'GPIO_PinConfig_t {aka struct <anonymous>}' has no member named 'GPIO_Pin_Number'; did you mean 'GPIO_PinNumber'?
+  pin.GPIO_Pin_Number = LCD->s_LCDCtrlPins.rspin;
+      ^~~~~~~~~~~~~~~
+      GPIO_PinNumber
+../Drivers/HAL/LCD/lcd.c:70:8: error: 'GPIO_PinConfig_t {aka struct <anonymous>}' has no member named 'GPIO_Pin_Number'; did you mean 'GPIO_PinNumber'?
+    pin.GPIO_Pin_Number = LCD->s_LCDDataPins.DataPinStart << i;
+        ^~~~~~~~~~~~~~~
+        GPIO_PinNumber
+../Drivers/HAL/LCD/lcd.c:77:8: error: 'GPIO_PinConfig_t {aka struct <anonymous>}' has no member named 'GPIO_Pin_Number'; did you mean 'GPIO_PinNumber'?
+    pin.GPIO_Pin_Number = LCD->s_LCDDataPins.DataPinStart << i;
+        ^~~~~~~~~~~~~~~
+        GPIO_PinNumber
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_sendchar':
+../Drivers/HAL/LCD/lcd.c:97:3: warning: implicit declaration of function 'MCAL_GPIO_WriteGroup'; did you mean 'MCAL_GPIO_WritePort'? [-Wimplicit-function-declaration]
+   MCAL_GPIO_WriteGroup(LCD->s_LCDDataPins.GPIOX
+   ^~~~~~~~~~~~~~~~~~~~
+   MCAL_GPIO_WritePort
+../Drivers/HAL/LCD/lcd.c:138:24: error: 'LINE_DIGITS' undeclared (first use in this function)
+    if(LCD->Ch_Counter==LINE_DIGITS)
+                        ^~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c:138:24: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_gotoxy':
+../Drivers/HAL/LCD/lcd.c:187:20: error: 'LINE_DIGITS' undeclared (first use in this function)
+  LCD->Ch_Counter=y*LINE_DIGITS+x;
+                    ^~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c: At top level:
+../Drivers/HAL/LCD/lcd.c:45:13: warning: 'LCD_delay' used but never defined
+ static void LCD_delay(int delay);
+             ^~~~~~~~~
+make: *** [Drivers/HAL/LCD/subdir.mk:18: Drivers/HAL/LCD/lcd.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+20:03:21 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/LCD/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/LCD/lcd.d" -MT"Drivers/HAL/LCD/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/LCD/lcd.o"
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_sendchar':
+../Drivers/HAL/LCD/lcd.c:97:3: warning: implicit declaration of function 'MCAL_GPIO_WriteGroup'; did you mean 'MCAL_GPIO_WritePort'? [-Wimplicit-function-declaration]
+   MCAL_GPIO_WriteGroup(LCD->s_LCDDataPins.GPIOX
+   ^~~~~~~~~~~~~~~~~~~~
+   MCAL_GPIO_WritePort
+../Drivers/HAL/LCD/lcd.c:138:24: error: 'LINE_DIGITS' undeclared (first use in this function)
+    if(LCD->Ch_Counter==LINE_DIGITS)
+                        ^~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c:138:24: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_gotoxy':
+../Drivers/HAL/LCD/lcd.c:187:20: error: 'LINE_DIGITS' undeclared (first use in this function)
+  LCD->Ch_Counter=y*LINE_DIGITS+x;
+                    ^~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c: At top level:
+../Drivers/HAL/LCD/lcd.c:45:13: warning: 'LCD_delay' used but never defined
+ static void LCD_delay(int delay);
+             ^~~~~~~~~
+make: *** [Drivers/HAL/LCD/subdir.mk:18: Drivers/HAL/LCD/lcd.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+20:05:16 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/LCD/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/LCD/lcd.d" -MT"Drivers/HAL/LCD/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/LCD/lcd.o"
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_sendchar':
+../Drivers/HAL/LCD/lcd.c:97:3: warning: implicit declaration of function 'MCAL_GPIO_WriteGroup'; did you mean 'MCAL_GPIO_WritePort'? [-Wimplicit-function-declaration]
+   MCAL_GPIO_WriteGroup(LCD->s_LCDDataPins.GPIOX
+   ^~~~~~~~~~~~~~~~~~~~
+   MCAL_GPIO_WritePort
+../Drivers/HAL/LCD/lcd.c:138:24: error: 'LINE_DIGITS' undeclared (first use in this function)
+    if(LCD->Ch_Counter==LINE_DIGITS)
+                        ^~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c:138:24: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_gotoxy':
+../Drivers/HAL/LCD/lcd.c:187:20: error: 'LINE_DIGITS' undeclared (first use in this function)
+  LCD->Ch_Counter=y*LINE_DIGITS+x;
+                    ^~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c: At top level:
+../Drivers/HAL/LCD/lcd.c:45:13: warning: 'LCD_delay' used but never defined
+ static void LCD_delay(int delay);
+             ^~~~~~~~~
+make: *** [Drivers/HAL/LCD/subdir.mk:18: Drivers/HAL/LCD/lcd.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+20:06:04 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/LCD/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/LCD/lcd.d" -MT"Drivers/HAL/LCD/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/LCD/lcd.o"
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_sendchar':
+../Drivers/HAL/LCD/lcd.c:97:3: warning: implicit declaration of function 'MCAL_GPIO_WriteGroup'; did you mean 'MCAL_GPIO_WritePort'? [-Wimplicit-function-declaration]
+   MCAL_GPIO_WriteGroup(LCD->s_LCDDataPins.GPIOX
+   ^~~~~~~~~~~~~~~~~~~~
+   MCAL_GPIO_WritePort
+../Drivers/HAL/LCD/lcd.c:138:24: error: 'LINE_DIGITS' undeclared (first use in this function)
+    if(LCD->Ch_Counter==LINE_DIGITS)
+                        ^~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c:138:24: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_gotoxy':
+../Drivers/HAL/LCD/lcd.c:187:20: error: 'LINE_DIGITS' undeclared (first use in this function)
+  LCD->Ch_Counter=y*LINE_DIGITS+x;
+                    ^~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c: At top level:
+../Drivers/HAL/LCD/lcd.c:45:13: warning: 'LCD_delay' used but never defined
+ static void LCD_delay(int delay);
+             ^~~~~~~~~
+make: *** [Drivers/HAL/LCD/subdir.mk:18: Drivers/HAL/LCD/lcd.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+20:07:15 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/LCD/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/LCD/lcd.d" -MT"Drivers/HAL/LCD/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/LCD/lcd.o"
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_sendchar':
+../Drivers/HAL/LCD/lcd.c:102:3: warning: implicit declaration of function 'MCAL_GPIO_WriteGroup'; did you mean 'MCAL_GPIO_WritePort'? [-Wimplicit-function-declaration]
+   MCAL_GPIO_WriteGroup(LCD->s_LCDDataPins.GPIOX
+   ^~~~~~~~~~~~~~~~~~~~
+   MCAL_GPIO_WritePort
+../Drivers/HAL/LCD/lcd.c:143:24: error: 'LINE_DIGITS' undeclared (first use in this function)
+    if(LCD->Ch_Counter==LINE_DIGITS)
+                        ^~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c:143:24: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_gotoxy':
+../Drivers/HAL/LCD/lcd.c:192:20: error: 'LINE_DIGITS' undeclared (first use in this function)
+  LCD->Ch_Counter=y*LINE_DIGITS+x;
+                    ^~~~~~~~~~~
+make: *** [Drivers/HAL/LCD/subdir.mk:18: Drivers/HAL/LCD/lcd.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:13:31 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/USART/stm32f103c8_usart_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/USART/stm32f103c8_usart_driver.d" -MT"Drivers/MCAL/USART/stm32f103c8_usart_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/USART/stm32f103c8_usart_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/SPI/stm32f103c8_spi_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/SPI/stm32f103c8_spi_driver.d" -MT"Drivers/MCAL/SPI/stm32f103c8_spi_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/SPI/stm32f103c8_spi_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/GPIO/stm32f103c8_gpio_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/GPIO/stm32f103c8_gpio_driver.d" -MT"Drivers/MCAL/GPIO/stm32f103c8_gpio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/GPIO/stm32f103c8_gpio_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/EXTI/stm32f103c8_exti_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/EXTI/stm32f103c8_exti_driver.d" -MT"Drivers/MCAL/EXTI/stm32f103c8_exti_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/EXTI/stm32f103c8_exti_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/Mototrs/Servo_Motors/servo_motor.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/Mototrs/Servo_Motors/servo_motor.d" -MT"Drivers/HAL/Mototrs/Servo_Motors/servo_motor.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/Mototrs/Servo_Motors/servo_motor.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/LCD/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/LCD/lcd.d" -MT"Drivers/HAL/LCD/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/LCD/lcd.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/Keypad/keypad.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/Keypad/keypad.d" -MT"Drivers/HAL/Keypad/keypad.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/Keypad/keypad.o"
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Smart_Vehicle_Parking.elf
+ 
+arm-none-eabi-objdump -h -S  Smart_Vehicle_Parking.elf  > "Smart_Vehicle_Parking.list"
+arm-none-eabi-objcopy  -O binary  Smart_Vehicle_Parking.elf  "Smart_Vehicle_Parking.bin"
+arm-none-eabi-size   Smart_Vehicle_Parking.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1436	      8	   1744	   3188	    c74	Smart_Vehicle_Parking.elf
+Finished building: default.size.stdout
+ 
+Finished building: Smart_Vehicle_Parking.list
+Finished building: Smart_Vehicle_Parking.bin
+ 
+ 
+12:27:49 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/LCD/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/LCD/lcd.d" -MT"Drivers/HAL/LCD/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/LCD/lcd.o"
+../Src/main.c: In function 'main':
+../Src/main.c:118:2: warning: implicit declaration of function 'dms' [-Wimplicit-function-declaration]
+  dms(200);
+  ^~~
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_kick':
+../Drivers/HAL/LCD/lcd.c:37:71: error: 'GPIO_PIN_TRUE' undeclared (first use in this function); did you mean 'GPIO_PIN12'?
+  MCAL_GPIO_WritePin(LCD->s_LCDCtrlPins.GPIOX,LCD->s_LCDCtrlPins.enpin,GPIO_PIN_TRUE);
+                                                                       ^~~~~~~~~~~~~
+                                                                       GPIO_PIN12
+../Drivers/HAL/LCD/lcd.c:37:71: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c: In function 'PIRs_Iint':
+../Src/main.c:210:2: error: unknown type name 'GPIO_Pin_Configure_t'; did you mean 'GPIO_PinConfig_t'?
+  GPIO_Pin_Configure_t PinCinfg;
+  ^~~~~~~~~~~~~~~~~~~~
+  GPIO_PinConfig_t
+../Src/main.c:211:10: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_7;
+          ^
+../Src/main.c:211:27: error: 'GPIO_PIN_7' undeclared (first use in this function); did you mean 'GPIO_PIN7'?
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_7;
+                           ^~~~~~~~~~
+                           GPIO_PIN7
+../Drivers/HAL/LCD/lcd.c:39:71: error: 'GPIO_PIN_FALSE' undeclared (first use in this function); did you mean 'GPIO_PIN_TRUE'?
+  MCAL_GPIO_WritePin(LCD->s_LCDCtrlPins.GPIOX,LCD->s_LCDCtrlPins.enpin,GPIO_PIN_FALSE);
+                                                                       ^~~~~~~~~~~~~~
+                                                                       GPIO_PIN_TRUE
+../Src/main.c:211:27: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c:212:10: error: request for member 'GPIO_MODE' in something not a structure or union
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+          ^
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_init':
+../Drivers/HAL/LCD/lcd.c:44:2: error: unknown type name 'GPIO_Pin_Configure_t'; did you mean 'GPIO_PinConfig_t'?
+  GPIO_Pin_Configure_t pin = {LCD->s_LCDCtrlPins.enpin ,GPIO_MODE_OUTPUT_PP, GPIO_SPEED_10M};
+  ^~~~~~~~~~~~~~~~~~~~
+  GPIO_PinConfig_t
+../Src/main.c:212:23: error: 'GPIO_MODE_INPUT_PU' undeclared (first use in this function); did you mean 'GPIO_MODE_INPUT_PULLUP'?
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+                       ^~~~~~~~~~~~~~~~~~
+                       GPIO_MODE_INPUT_PULLUP
+../Drivers/HAL/LCD/lcd.c:44:56: error: 'GPIO_MODE_OUTPUT_PP' undeclared (first use in this function); did you mean 'GPIO_MODE_OUTPUT_PUSHPULL'?
+  GPIO_Pin_Configure_t pin = {LCD->s_LCDCtrlPins.enpin ,GPIO_MODE_OUTPUT_PP, GPIO_SPEED_10M};
+                                                        ^~~~~~~~~~~~~~~~~~~
+                                                        GPIO_MODE_OUTPUT_PUSHPULL
+../Drivers/HAL/LCD/lcd.c:44:56: warning: excess elements in scalar initializer
+../Drivers/HAL/LCD/lcd.c:44:56: note: (near initialization for 'pin')
+../Drivers/HAL/LCD/lcd.c:44:77: error: 'GPIO_SPEED_10M' undeclared (first use in this function); did you mean 'GPIO_PIN10'?
+  GPIO_Pin_Configure_t pin = {LCD->s_LCDCtrlPins.enpin ,GPIO_MODE_OUTPUT_PP, GPIO_SPEED_10M};
+                                                                             ^~~~~~~~~~~~~~
+                                                                             GPIO_PIN10
+../Drivers/HAL/LCD/lcd.c:44:77: warning: excess elements in scalar initializer
+../Drivers/HAL/LCD/lcd.c:44:77: note: (near initialization for 'pin')
+../Drivers/HAL/LCD/lcd.c:45:42: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(LCD->s_LCDCtrlPins.GPIOX,&pin);
+                                          ^
+In file included from C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/lcd.h:20:0,
+                 from ../Drivers/HAL/LCD/lcd.c:16:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c:46:5: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+  pin.GPIO_Pin_Number = LCD->s_LCDCtrlPins.rspin;
+     ^
+../Drivers/HAL/LCD/lcd.c:47:42: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(LCD->s_LCDCtrlPins.GPIOX,&pin);
+                                          ^
+In file included from C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/lcd.h:20:0,
+                 from ../Drivers/HAL/LCD/lcd.c:16:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Src/main.c:213:24: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(GPIOA, &PinCinfg);
+                        ^
+../Drivers/HAL/LCD/lcd.c:53:7: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+    pin.GPIO_Pin_Number = LCD->s_LCDDataPins.DataPinStart << i;
+       ^
+../Drivers/HAL/LCD/lcd.c:54:44: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+    MCAL_GPIO_Init(LCD->s_LCDDataPins.GPIOX,&pin);
+                                            ^
+In file included from C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/lcd.h:20:0,
+                 from ../Drivers/HAL/LCD/lcd.c:16:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c:60:7: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+    pin.GPIO_Pin_Number = LCD->s_LCDDataPins.DataPinStart << i;
+       ^
+../Drivers/HAL/LCD/lcd.c:61:44: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+    MCAL_GPIO_Init(LCD->s_LCDDataPins.GPIOX,&pin);
+                                            ^
+In file included from C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/lcd.h:20:0,
+                 from ../Drivers/HAL/LCD/lcd.c:16:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+In file included from ../Src/main.c:21:0:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Src/main.c:216:10: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_1;
+          ^
+../Src/main.c:216:27: error: 'GPIO_PIN_1' undeclared (first use in this function); did you mean 'GPIO_PIN_7'?
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_1;
+                           ^~~~~~~~~~
+                           GPIO_PIN_7
+../Src/main.c:217:10: error: request for member 'GPIO_MODE' in something not a structure or union
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+          ^
+../Src/main.c:218:24: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(GPIOA, &PinCinfg);
+                        ^
+In file included from ../Src/main.c:21:0:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Src/main.c:220:28: error: 'GPIO_PIN_0' undeclared (first use in this function); did you mean 'GPIO_PIN_1'?
+  MCAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, 1); //make A0 ground
+                            ^~~~~~~~~~
+                            GPIO_PIN_1
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_sendchar':
+../Drivers/HAL/LCD/lcd.c:80:3: warning: implicit declaration of function 'MCAL_GPIO_WriteGroup'; did you mean 'MCAL_GPIO_WritePort'? [-Wimplicit-function-declaration]
+   MCAL_GPIO_WriteGroup(LCD->s_LCDDataPins.GPIOX
+   ^~~~~~~~~~~~~~~~~~~~
+   MCAL_GPIO_WritePort
+../Src/main.c:221:28: error: 'GPIO_PIN_11' undeclared (first use in this function); did you mean 'GPIO_PIN_1'?
+  MCAL_GPIO_WritePin(GPIOA, GPIO_PIN_11, 1); //make A11 ground
+                            ^~~~~~~~~~~
+                            GPIO_PIN_1
+../Drivers/HAL/LCD/lcd.c:85:73: error: 'GPIO_PIN_FALSE' undeclared (first use in this function); did you mean 'GPIO_PIN12'?
+    MCAL_GPIO_WritePin(LCD->s_LCDCtrlPins.GPIOX,LCD->s_LCDCtrlPins.rspin,GPIO_PIN_FALSE);
+                                                                         ^~~~~~~~~~~~~~
+                                                                         GPIO_PIN12
+../Drivers/HAL/LCD/lcd.c:88:73: error: 'GPIO_PIN_TRUE' undeclared (first use in this function); did you mean 'GPIO_PIN_FALSE'?
+    MCAL_GPIO_WritePin(LCD->s_LCDCtrlPins.GPIOX,LCD->s_LCDCtrlPins.rspin,GPIO_PIN_TRUE);
+                                                                         ^~~~~~~~~~~~~
+                                                                         GPIO_PIN_FALSE
+make: *** [Src/subdir.mk:24: Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Drivers/HAL/LCD/subdir.mk:18: Drivers/HAL/LCD/lcd.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:29:25 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/LCD/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/LCD/lcd.d" -MT"Drivers/HAL/LCD/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/LCD/lcd.o"
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_kick':
+../Drivers/HAL/LCD/lcd.c:36:71: error: 'GPIO_PIN_TRUE' undeclared (first use in this function); did you mean 'GPIO_PIN12'?
+  MCAL_GPIO_WritePin(LCD->s_LCDCtrlPins.GPIOX,LCD->s_LCDCtrlPins.enpin,GPIO_PIN_TRUE);
+                                                                       ^~~~~~~~~~~~~
+                                                                       GPIO_PIN12
+../Drivers/HAL/LCD/lcd.c:36:71: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/HAL/LCD/lcd.c:38:71: error: 'GPIO_PIN_FALSE' undeclared (first use in this function); did you mean 'GPIO_PIN_TRUE'?
+  MCAL_GPIO_WritePin(LCD->s_LCDCtrlPins.GPIOX,LCD->s_LCDCtrlPins.enpin,GPIO_PIN_FALSE);
+                                                                       ^~~~~~~~~~~~~~
+                                                                       GPIO_PIN_TRUE
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_init':
+../Drivers/HAL/LCD/lcd.c:43:2: error: unknown type name 'GPIO_Pin_Configure_t'; did you mean 'GPIO_PinConfig_t'?
+  GPIO_Pin_Configure_t pin = {LCD->s_LCDCtrlPins.enpin ,GPIO_MODE_OUTPUT_PP, GPIO_SPEED_10M};
+  ^~~~~~~~~~~~~~~~~~~~
+  GPIO_PinConfig_t
+../Drivers/HAL/LCD/lcd.c:43:56: error: 'GPIO_MODE_OUTPUT_PP' undeclared (first use in this function); did you mean 'GPIO_MODE_OUTPUT_PUSHPULL'?
+  GPIO_Pin_Configure_t pin = {LCD->s_LCDCtrlPins.enpin ,GPIO_MODE_OUTPUT_PP, GPIO_SPEED_10M};
+                                                        ^~~~~~~~~~~~~~~~~~~
+                                                        GPIO_MODE_OUTPUT_PUSHPULL
+../Drivers/HAL/LCD/lcd.c:43:56: warning: excess elements in scalar initializer
+../Drivers/HAL/LCD/lcd.c:43:56: note: (near initialization for 'pin')
+../Drivers/HAL/LCD/lcd.c:43:77: error: 'GPIO_SPEED_10M' undeclared (first use in this function); did you mean 'GPIO_PIN10'?
+  GPIO_Pin_Configure_t pin = {LCD->s_LCDCtrlPins.enpin ,GPIO_MODE_OUTPUT_PP, GPIO_SPEED_10M};
+                                                                             ^~~~~~~~~~~~~~
+                                                                             GPIO_PIN10
+../Drivers/HAL/LCD/lcd.c:43:77: warning: excess elements in scalar initializer
+../Drivers/HAL/LCD/lcd.c:43:77: note: (near initialization for 'pin')
+../Drivers/HAL/LCD/lcd.c:44:42: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(LCD->s_LCDCtrlPins.GPIOX,&pin);
+                                          ^
+In file included from C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/lcd.h:20:0,
+                 from ../Drivers/HAL/LCD/lcd.c:16:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c:45:5: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+  pin.GPIO_Pin_Number = LCD->s_LCDCtrlPins.rspin;
+     ^
+../Drivers/HAL/LCD/lcd.c:46:42: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(LCD->s_LCDCtrlPins.GPIOX,&pin);
+                                          ^
+In file included from C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/lcd.h:20:0,
+                 from ../Drivers/HAL/LCD/lcd.c:16:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c:52:7: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+    pin.GPIO_Pin_Number = LCD->s_LCDDataPins.DataPinStart << i;
+       ^
+../Drivers/HAL/LCD/lcd.c:53:44: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+    MCAL_GPIO_Init(LCD->s_LCDDataPins.GPIOX,&pin);
+                                            ^
+In file included from C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/lcd.h:20:0,
+                 from ../Drivers/HAL/LCD/lcd.c:16:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c:59:7: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+    pin.GPIO_Pin_Number = LCD->s_LCDDataPins.DataPinStart << i;
+       ^
+../Drivers/HAL/LCD/lcd.c:60:44: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+    MCAL_GPIO_Init(LCD->s_LCDDataPins.GPIOX,&pin);
+                                            ^
+In file included from C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/lcd.h:20:0,
+                 from ../Drivers/HAL/LCD/lcd.c:16:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Src/main.c: In function 'main':
+../Src/main.c:118:2: warning: implicit declaration of function 'dms' [-Wimplicit-function-declaration]
+  dms(200);
+  ^~~
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_sendchar':
+../Drivers/HAL/LCD/lcd.c:79:3: warning: implicit declaration of function 'MCAL_GPIO_WriteGroup'; did you mean 'MCAL_GPIO_WritePort'? [-Wimplicit-function-declaration]
+   MCAL_GPIO_WriteGroup(LCD->s_LCDDataPins.GPIOX
+   ^~~~~~~~~~~~~~~~~~~~
+   MCAL_GPIO_WritePort
+../Src/main.c: In function 'PIRs_Iint':
+../Src/main.c:210:2: error: unknown type name 'GPIO_Pin_Configure_t'; did you mean 'GPIO_PinConfig_t'?
+  GPIO_Pin_Configure_t PinCinfg;
+  ^~~~~~~~~~~~~~~~~~~~
+  GPIO_PinConfig_t
+../Src/main.c:211:10: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_7;
+          ^
+../Src/main.c:211:27: error: 'GPIO_PIN_7' undeclared (first use in this function); did you mean 'GPIO_PIN7'?
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_7;
+                           ^~~~~~~~~~
+                           GPIO_PIN7
+../Src/main.c:211:27: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c:212:10: error: request for member 'GPIO_MODE' in something not a structure or union
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+          ^
+../Drivers/HAL/LCD/lcd.c:84:73: error: 'GPIO_PIN_FALSE' undeclared (first use in this function); did you mean 'GPIO_PIN12'?
+    MCAL_GPIO_WritePin(LCD->s_LCDCtrlPins.GPIOX,LCD->s_LCDCtrlPins.rspin,GPIO_PIN_FALSE);
+                                                                         ^~~~~~~~~~~~~~
+                                                                         GPIO_PIN12
+../Src/main.c:212:23: error: 'GPIO_MODE_INPUT_PU' undeclared (first use in this function); did you mean 'GPIO_MODE_INPUT_PULLUP'?
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+                       ^~~~~~~~~~~~~~~~~~
+                       GPIO_MODE_INPUT_PULLUP
+../Src/main.c:213:24: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(GPIOA, &PinCinfg);
+                        ^
+../Drivers/HAL/LCD/lcd.c:87:73: error: 'GPIO_PIN_TRUE' undeclared (first use in this function); did you mean 'GPIO_PIN_FALSE'?
+    MCAL_GPIO_WritePin(LCD->s_LCDCtrlPins.GPIOX,LCD->s_LCDCtrlPins.rspin,GPIO_PIN_TRUE);
+                                                                         ^~~~~~~~~~~~~
+                                                                         GPIO_PIN_FALSE
+In file included from ../Src/main.c:21:0:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Src/main.c:216:10: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_1;
+          ^
+../Src/main.c:216:27: error: 'GPIO_PIN_1' undeclared (first use in this function); did you mean 'GPIO_PIN_7'?
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_1;
+                           ^~~~~~~~~~
+                           GPIO_PIN_7
+../Src/main.c:217:10: error: request for member 'GPIO_MODE' in something not a structure or union
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+          ^
+../Src/main.c:218:24: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(GPIOA, &PinCinfg);
+                        ^
+In file included from ../Src/main.c:21:0:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Src/main.c:220:28: error: 'GPIO_PIN_0' undeclared (first use in this function); did you mean 'GPIO_PIN_1'?
+  MCAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, 1); //make A0 ground
+                            ^~~~~~~~~~
+                            GPIO_PIN_1
+../Src/main.c:221:28: error: 'GPIO_PIN_11' undeclared (first use in this function); did you mean 'GPIO_PIN_1'?
+  MCAL_GPIO_WritePin(GPIOA, GPIO_PIN_11, 1); //make A11 ground
+                            ^~~~~~~~~~~
+                            GPIO_PIN_1
+make: *** [Src/subdir.mk:24: Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Drivers/HAL/LCD/subdir.mk:18: Drivers/HAL/LCD/lcd.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:31:31 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/LCD/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/LCD/lcd.d" -MT"Drivers/HAL/LCD/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/LCD/lcd.o"
+../Src/main.c: In function 'main':
+../Src/main.c:118:2: warning: implicit declaration of function 'dms' [-Wimplicit-function-declaration]
+  dms(200);
+  ^~~
+../Src/main.c: In function 'PIRs_Iint':
+../Src/main.c:210:2: error: unknown type name 'GPIO_Pin_Configure_t'; did you mean 'GPIO_PinConfig_t'?
+  GPIO_Pin_Configure_t PinCinfg;
+  ^~~~~~~~~~~~~~~~~~~~
+  GPIO_PinConfig_t
+../Src/main.c:211:10: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_7;
+          ^
+../Src/main.c:211:27: error: 'GPIO_PIN_7' undeclared (first use in this function); did you mean 'GPIO_PIN7'?
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_7;
+                           ^~~~~~~~~~
+                           GPIO_PIN7
+../Src/main.c:211:27: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c:212:10: error: request for member 'GPIO_MODE' in something not a structure or union
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+          ^
+../Src/main.c:212:23: error: 'GPIO_MODE_INPUT_PU' undeclared (first use in this function); did you mean 'GPIO_MODE_INPUT_PULLUP'?
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+                       ^~~~~~~~~~~~~~~~~~
+                       GPIO_MODE_INPUT_PULLUP
+../Src/main.c:213:24: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(GPIOA, &PinCinfg);
+                        ^
+In file included from ../Src/main.c:21:0:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Src/main.c:216:10: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_1;
+          ^
+../Src/main.c:216:27: error: 'GPIO_PIN_1' undeclared (first use in this function); did you mean 'GPIO_PIN_7'?
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_1;
+                           ^~~~~~~~~~
+                           GPIO_PIN_7
+../Src/main.c:217:10: error: request for member 'GPIO_MODE' in something not a structure or union
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+          ^
+../Src/main.c:218:24: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(GPIOA, &PinCinfg);
+                        ^
+In file included from ../Src/main.c:21:0:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Src/main.c:220:28: error: 'GPIO_PIN_0' undeclared (first use in this function); did you mean 'GPIO_PIN_1'?
+  MCAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, 1); //make A0 ground
+                            ^~~~~~~~~~
+                            GPIO_PIN_1
+../Src/main.c:221:28: error: 'GPIO_PIN_11' undeclared (first use in this function); did you mean 'GPIO_PIN_1'?
+  MCAL_GPIO_WritePin(GPIOA, GPIO_PIN_11, 1); //make A11 ground
+                            ^~~~~~~~~~~
+                            GPIO_PIN_1
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_init':
+../Drivers/HAL/LCD/lcd.c:43:2: error: unknown type name 'GPIO_Pin_Configure_t'; did you mean 'GPIO_PinConfig_t'?
+  GPIO_Pin_Configure_t pin = {LCD->s_LCDCtrlPins.enpin ,GPIO_MODE_OUTPUT_PP, GPIO_SPEED_10M};
+  ^~~~~~~~~~~~~~~~~~~~
+  GPIO_PinConfig_t
+../Drivers/HAL/LCD/lcd.c:43:56: error: 'GPIO_MODE_OUTPUT_PP' undeclared (first use in this function); did you mean 'GPIO_MODE_OUTPUT_PUSHPULL'?
+  GPIO_Pin_Configure_t pin = {LCD->s_LCDCtrlPins.enpin ,GPIO_MODE_OUTPUT_PP, GPIO_SPEED_10M};
+                                                        ^~~~~~~~~~~~~~~~~~~
+                                                        GPIO_MODE_OUTPUT_PUSHPULL
+../Drivers/HAL/LCD/lcd.c:43:56: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/HAL/LCD/lcd.c:43:56: warning: excess elements in scalar initializer
+../Drivers/HAL/LCD/lcd.c:43:56: note: (near initialization for 'pin')
+../Drivers/HAL/LCD/lcd.c:43:77: error: 'GPIO_SPEED_10M' undeclared (first use in this function); did you mean 'GPIO_PIN10'?
+  GPIO_Pin_Configure_t pin = {LCD->s_LCDCtrlPins.enpin ,GPIO_MODE_OUTPUT_PP, GPIO_SPEED_10M};
+                                                                             ^~~~~~~~~~~~~~
+                                                                             GPIO_PIN10
+../Drivers/HAL/LCD/lcd.c:43:77: warning: excess elements in scalar initializer
+../Drivers/HAL/LCD/lcd.c:43:77: note: (near initialization for 'pin')
+../Drivers/HAL/LCD/lcd.c:44:42: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(LCD->s_LCDCtrlPins.GPIOX,&pin);
+                                          ^
+In file included from C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/lcd.h:20:0,
+                 from ../Drivers/HAL/LCD/lcd.c:16:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c:45:5: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+  pin.GPIO_Pin_Number = LCD->s_LCDCtrlPins.rspin;
+     ^
+../Drivers/HAL/LCD/lcd.c:46:42: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(LCD->s_LCDCtrlPins.GPIOX,&pin);
+                                          ^
+In file included from C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/lcd.h:20:0,
+                 from ../Drivers/HAL/LCD/lcd.c:16:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c:52:7: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+    pin.GPIO_Pin_Number = LCD->s_LCDDataPins.DataPinStart << i;
+       ^
+../Drivers/HAL/LCD/lcd.c:53:44: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+    MCAL_GPIO_Init(LCD->s_LCDDataPins.GPIOX,&pin);
+                                            ^
+In file included from C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/lcd.h:20:0,
+                 from ../Drivers/HAL/LCD/lcd.c:16:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c:59:7: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+    pin.GPIO_Pin_Number = LCD->s_LCDDataPins.DataPinStart << i;
+       ^
+../Drivers/HAL/LCD/lcd.c:60:44: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+    MCAL_GPIO_Init(LCD->s_LCDDataPins.GPIOX,&pin);
+                                            ^
+In file included from C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/lcd.h:20:0,
+                 from ../Drivers/HAL/LCD/lcd.c:16:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_sendchar':
+../Drivers/HAL/LCD/lcd.c:79:3: warning: implicit declaration of function 'MCAL_GPIO_WriteGroup'; did you mean 'MCAL_GPIO_WritePort'? [-Wimplicit-function-declaration]
+   MCAL_GPIO_WriteGroup(LCD->s_LCDDataPins.GPIOX
+   ^~~~~~~~~~~~~~~~~~~~
+   MCAL_GPIO_WritePort
+make: *** [Src/subdir.mk:24: Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Drivers/HAL/LCD/subdir.mk:18: Drivers/HAL/LCD/lcd.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:32:17 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/LCD/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/LCD/lcd.d" -MT"Drivers/HAL/LCD/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/LCD/lcd.o"
+../Src/main.c: In function 'main':
+../Src/main.c:118:2: warning: implicit declaration of function 'dms' [-Wimplicit-function-declaration]
+  dms(200);
+  ^~~
+../Src/main.c: In function 'PIRs_Iint':
+../Src/main.c:210:2: error: unknown type name 'GPIO_Pin_Configure_t'; did you mean 'GPIO_PinConfig_t'?
+  GPIO_Pin_Configure_t PinCinfg;
+  ^~~~~~~~~~~~~~~~~~~~
+  GPIO_PinConfig_t
+../Src/main.c:211:10: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_7;
+          ^
+../Src/main.c:211:27: error: 'GPIO_PIN_7' undeclared (first use in this function); did you mean 'GPIO_PIN7'?
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_7;
+                           ^~~~~~~~~~
+                           GPIO_PIN7
+../Src/main.c:211:27: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c:212:10: error: request for member 'GPIO_MODE' in something not a structure or union
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+          ^
+../Src/main.c:212:23: error: 'GPIO_MODE_INPUT_PU' undeclared (first use in this function); did you mean 'GPIO_MODE_INPUT_PULLUP'?
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+                       ^~~~~~~~~~~~~~~~~~
+                       GPIO_MODE_INPUT_PULLUP
+../Src/main.c:213:24: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(GPIOA, &PinCinfg);
+                        ^
+In file included from ../Src/main.c:21:0:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Src/main.c:216:10: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_1;
+          ^
+../Src/main.c:216:27: error: 'GPIO_PIN_1' undeclared (first use in this function); did you mean 'GPIO_PIN_7'?
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_1;
+                           ^~~~~~~~~~
+                           GPIO_PIN_7
+../Src/main.c:217:10: error: request for member 'GPIO_MODE' in something not a structure or union
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+          ^
+../Src/main.c:218:24: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(GPIOA, &PinCinfg);
+                        ^
+In file included from ../Src/main.c:21:0:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Src/main.c:220:28: error: 'GPIO_PIN_0' undeclared (first use in this function); did you mean 'GPIO_PIN_1'?
+  MCAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, 1); //make A0 ground
+                            ^~~~~~~~~~
+                            GPIO_PIN_1
+../Src/main.c:221:28: error: 'GPIO_PIN_11' undeclared (first use in this function); did you mean 'GPIO_PIN_1'?
+  MCAL_GPIO_WritePin(GPIOA, GPIO_PIN_11, 1); //make A11 ground
+                            ^~~~~~~~~~~
+                            GPIO_PIN_1
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_init':
+../Drivers/HAL/LCD/lcd.c:43:2: error: unknown type name 'GPIO_Pin_Configure_t'; did you mean 'GPIO_PinConfig_t'?
+  GPIO_Pin_Configure_t pin = {LCD->s_LCDCtrlPins.enpin ,GPIO_MODE_OUTPUT_PP, GPIO_SPEED_10M};
+  ^~~~~~~~~~~~~~~~~~~~
+  GPIO_PinConfig_t
+../Drivers/HAL/LCD/lcd.c:43:56: error: 'GPIO_MODE_OUTPUT_PP' undeclared (first use in this function); did you mean 'GPIO_MODE_OUTPUT_PUSHPULL'?
+  GPIO_Pin_Configure_t pin = {LCD->s_LCDCtrlPins.enpin ,GPIO_MODE_OUTPUT_PP, GPIO_SPEED_10M};
+                                                        ^~~~~~~~~~~~~~~~~~~
+                                                        GPIO_MODE_OUTPUT_PUSHPULL
+../Drivers/HAL/LCD/lcd.c:43:56: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/HAL/LCD/lcd.c:43:56: warning: excess elements in scalar initializer
+../Drivers/HAL/LCD/lcd.c:43:56: note: (near initialization for 'pin')
+../Drivers/HAL/LCD/lcd.c:43:77: error: 'GPIO_SPEED_10M' undeclared (first use in this function); did you mean 'GPIO_PIN10'?
+  GPIO_Pin_Configure_t pin = {LCD->s_LCDCtrlPins.enpin ,GPIO_MODE_OUTPUT_PP, GPIO_SPEED_10M};
+                                                                             ^~~~~~~~~~~~~~
+                                                                             GPIO_PIN10
+../Drivers/HAL/LCD/lcd.c:43:77: warning: excess elements in scalar initializer
+../Drivers/HAL/LCD/lcd.c:43:77: note: (near initialization for 'pin')
+../Drivers/HAL/LCD/lcd.c:44:42: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(LCD->s_LCDCtrlPins.GPIOX,&pin);
+                                          ^
+In file included from C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/lcd.h:20:0,
+                 from ../Drivers/HAL/LCD/lcd.c:16:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c:45:5: error: request for member 'GPIO_PinNumber' in something not a structure or union
+  pin.GPIO_PinNumber = LCD->s_LCDCtrlPins.rspin;
+     ^
+../Drivers/HAL/LCD/lcd.c:46:42: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(LCD->s_LCDCtrlPins.GPIOX,&pin);
+                                          ^
+In file included from C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/lcd.h:20:0,
+                 from ../Drivers/HAL/LCD/lcd.c:16:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c:52:7: error: request for member 'GPIO_PinNumber' in something not a structure or union
+    pin.GPIO_PinNumber = LCD->s_LCDDataPins.DataPinStart << i;
+       ^
+../Drivers/HAL/LCD/lcd.c:53:44: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+    MCAL_GPIO_Init(LCD->s_LCDDataPins.GPIOX,&pin);
+                                            ^
+In file included from C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/lcd.h:20:0,
+                 from ../Drivers/HAL/LCD/lcd.c:16:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c:59:7: error: request for member 'GPIO_PinNumber' in something not a structure or union
+    pin.GPIO_PinNumber = LCD->s_LCDDataPins.DataPinStart << i;
+       ^
+../Drivers/HAL/LCD/lcd.c:60:44: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+    MCAL_GPIO_Init(LCD->s_LCDDataPins.GPIOX,&pin);
+                                            ^
+In file included from C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/lcd.h:20:0,
+                 from ../Drivers/HAL/LCD/lcd.c:16:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_sendchar':
+../Drivers/HAL/LCD/lcd.c:79:3: warning: implicit declaration of function 'MCAL_GPIO_WriteGroup'; did you mean 'MCAL_GPIO_WritePort'? [-Wimplicit-function-declaration]
+   MCAL_GPIO_WriteGroup(LCD->s_LCDDataPins.GPIOX
+   ^~~~~~~~~~~~~~~~~~~~
+   MCAL_GPIO_WritePort
+make: *** [Src/subdir.mk:24: Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Drivers/HAL/LCD/subdir.mk:18: Drivers/HAL/LCD/lcd.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:33:03 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/LCD/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/LCD/lcd.d" -MT"Drivers/HAL/LCD/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/LCD/lcd.o"
+../Src/main.c: In function 'main':
+../Src/main.c:118:2: warning: implicit declaration of function 'dms' [-Wimplicit-function-declaration]
+  dms(200);
+  ^~~
+../Src/main.c: In function 'PIRs_Iint':
+../Src/main.c:210:2: error: unknown type name 'GPIO_Pin_Configure_t'; did you mean 'GPIO_PinConfig_t'?
+  GPIO_Pin_Configure_t PinCinfg;
+  ^~~~~~~~~~~~~~~~~~~~
+  GPIO_PinConfig_t
+../Src/main.c:211:10: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_7;
+          ^
+../Src/main.c:211:27: error: 'GPIO_PIN_7' undeclared (first use in this function); did you mean 'GPIO_PIN7'?
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_7;
+                           ^~~~~~~~~~
+                           GPIO_PIN7
+../Src/main.c:211:27: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c:212:10: error: request for member 'GPIO_MODE' in something not a structure or union
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+          ^
+../Src/main.c:212:23: error: 'GPIO_MODE_INPUT_PU' undeclared (first use in this function); did you mean 'GPIO_MODE_INPUT_PULLUP'?
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+                       ^~~~~~~~~~~~~~~~~~
+                       GPIO_MODE_INPUT_PULLUP
+../Src/main.c:213:24: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(GPIOA, &PinCinfg);
+                        ^
+In file included from ../Src/main.c:21:0:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Src/main.c:216:10: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_1;
+          ^
+../Src/main.c:216:27: error: 'GPIO_PIN_1' undeclared (first use in this function); did you mean 'GPIO_PIN_7'?
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_1;
+                           ^~~~~~~~~~
+                           GPIO_PIN_7
+../Src/main.c:217:10: error: request for member 'GPIO_MODE' in something not a structure or union
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+          ^
+../Src/main.c:218:24: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(GPIOA, &PinCinfg);
+                        ^
+In file included from ../Src/main.c:21:0:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Src/main.c:220:28: error: 'GPIO_PIN_0' undeclared (first use in this function); did you mean 'GPIO_PIN_1'?
+  MCAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, 1); //make A0 ground
+                            ^~~~~~~~~~
+                            GPIO_PIN_1
+../Src/main.c:221:28: error: 'GPIO_PIN_11' undeclared (first use in this function); did you mean 'GPIO_PIN_1'?
+  MCAL_GPIO_WritePin(GPIOA, GPIO_PIN_11, 1); //make A11 ground
+                            ^~~~~~~~~~~
+                            GPIO_PIN_1
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_init':
+../Drivers/HAL/LCD/lcd.c:43:52: error: 'GPIO_MODE_OUTPUT_PP' undeclared (first use in this function); did you mean 'GPIO_MODE_OUTPUT_PUSHPULL'?
+  GPIO_PinConfig_t pin = {LCD->s_LCDCtrlPins.enpin ,GPIO_MODE_OUTPUT_PP, GPIO_SPEED_10M};
+                                                    ^~~~~~~~~~~~~~~~~~~
+                                                    GPIO_MODE_OUTPUT_PUSHPULL
+../Drivers/HAL/LCD/lcd.c:43:52: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/HAL/LCD/lcd.c:43:73: error: 'GPIO_SPEED_10M' undeclared (first use in this function); did you mean 'GPIO_PIN10'?
+  GPIO_PinConfig_t pin = {LCD->s_LCDCtrlPins.enpin ,GPIO_MODE_OUTPUT_PP, GPIO_SPEED_10M};
+                                                                         ^~~~~~~~~~~~~~
+                                                                         GPIO_PIN10
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_sendchar':
+../Drivers/HAL/LCD/lcd.c:79:3: warning: implicit declaration of function 'MCAL_GPIO_WriteGroup'; did you mean 'MCAL_GPIO_WritePort'? [-Wimplicit-function-declaration]
+   MCAL_GPIO_WriteGroup(LCD->s_LCDDataPins.GPIOX
+   ^~~~~~~~~~~~~~~~~~~~
+   MCAL_GPIO_WritePort
+make: *** [Src/subdir.mk:24: Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Drivers/HAL/LCD/subdir.mk:18: Drivers/HAL/LCD/lcd.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:33:31 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/LCD/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/LCD/lcd.d" -MT"Drivers/HAL/LCD/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/LCD/lcd.o"
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_init':
+../Drivers/HAL/LCD/lcd.c:43:79: error: 'GPIO_SPEED_10M' undeclared (first use in this function); did you mean 'GPIO_PIN10'?
+  GPIO_PinConfig_t pin = {LCD->s_LCDCtrlPins.enpin ,GPIO_MODE_OUTPUT_PUSHPULL, GPIO_SPEED_10M};
+                                                                               ^~~~~~~~~~~~~~
+                                                                               GPIO_PIN10
+../Drivers/HAL/LCD/lcd.c:43:79: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_sendchar':
+../Drivers/HAL/LCD/lcd.c:79:3: warning: implicit declaration of function 'MCAL_GPIO_WriteGroup'; did you mean 'MCAL_GPIO_WritePort'? [-Wimplicit-function-declaration]
+   MCAL_GPIO_WriteGroup(LCD->s_LCDDataPins.GPIOX
+   ^~~~~~~~~~~~~~~~~~~~
+   MCAL_GPIO_WritePort
+../Src/main.c: In function 'main':
+../Src/main.c:118:2: warning: implicit declaration of function 'dms' [-Wimplicit-function-declaration]
+  dms(200);
+  ^~~
+../Src/main.c: In function 'PIRs_Iint':
+../Src/main.c:210:2: error: unknown type name 'GPIO_Pin_Configure_t'; did you mean 'GPIO_PinConfig_t'?
+  GPIO_Pin_Configure_t PinCinfg;
+  ^~~~~~~~~~~~~~~~~~~~
+  GPIO_PinConfig_t
+../Src/main.c:211:10: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_7;
+          ^
+../Src/main.c:211:27: error: 'GPIO_PIN_7' undeclared (first use in this function); did you mean 'GPIO_PIN7'?
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_7;
+                           ^~~~~~~~~~
+                           GPIO_PIN7
+../Src/main.c:211:27: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c:212:10: error: request for member 'GPIO_MODE' in something not a structure or union
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+          ^
+../Src/main.c:212:23: error: 'GPIO_MODE_INPUT_PU' undeclared (first use in this function); did you mean 'GPIO_MODE_INPUT_PULLUP'?
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+                       ^~~~~~~~~~~~~~~~~~
+                       GPIO_MODE_INPUT_PULLUP
+../Src/main.c:213:24: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(GPIOA, &PinCinfg);
+                        ^
+In file included from ../Src/main.c:21:0:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Src/main.c:216:10: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_1;
+          ^
+../Src/main.c:216:27: error: 'GPIO_PIN_1' undeclared (first use in this function); did you mean 'GPIO_PIN_7'?
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_1;
+                           ^~~~~~~~~~
+                           GPIO_PIN_7
+../Src/main.c:217:10: error: request for member 'GPIO_MODE' in something not a structure or union
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+          ^
+../Src/main.c:218:24: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(GPIOA, &PinCinfg);
+                        ^
+In file included from ../Src/main.c:21:0:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+make: *** [Drivers/HAL/LCD/subdir.mk:18: Drivers/HAL/LCD/lcd.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Src/main.c:220:28: error: 'GPIO_PIN_0' undeclared (first use in this function); did you mean 'GPIO_PIN_1'?
+  MCAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, 1); //make A0 ground
+                            ^~~~~~~~~~
+                            GPIO_PIN_1
+../Src/main.c:221:28: error: 'GPIO_PIN_11' undeclared (first use in this function); did you mean 'GPIO_PIN_1'?
+  MCAL_GPIO_WritePin(GPIOA, GPIO_PIN_11, 1); //make A11 ground
+                            ^~~~~~~~~~~
+                            GPIO_PIN_1
+make: *** [Src/subdir.mk:24: Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:33:55 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/LCD/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/LCD/lcd.d" -MT"Drivers/HAL/LCD/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/LCD/lcd.o"
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_sendchar':
+../Drivers/HAL/LCD/lcd.c:79:3: warning: implicit declaration of function 'MCAL_GPIO_WriteGroup'; did you mean 'MCAL_GPIO_WritePort'? [-Wimplicit-function-declaration]
+   MCAL_GPIO_WriteGroup(LCD->s_LCDDataPins.GPIOX
+   ^~~~~~~~~~~~~~~~~~~~
+   MCAL_GPIO_WritePort
+../Src/main.c: In function 'main':
+../Src/main.c:118:2: warning: implicit declaration of function 'dms' [-Wimplicit-function-declaration]
+  dms(200);
+  ^~~
+../Src/main.c: In function 'PIRs_Iint':
+../Src/main.c:210:2: error: unknown type name 'GPIO_Pin_Configure_t'; did you mean 'GPIO_PinConfig_t'?
+  GPIO_Pin_Configure_t PinCinfg;
+  ^~~~~~~~~~~~~~~~~~~~
+  GPIO_PinConfig_t
+../Src/main.c:211:10: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_7;
+          ^
+../Src/main.c:211:27: error: 'GPIO_PIN_7' undeclared (first use in this function); did you mean 'GPIO_PIN7'?
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_7;
+                           ^~~~~~~~~~
+                           GPIO_PIN7
+../Src/main.c:211:27: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c:212:10: error: request for member 'GPIO_MODE' in something not a structure or union
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+          ^
+../Src/main.c:212:23: error: 'GPIO_MODE_INPUT_PU' undeclared (first use in this function); did you mean 'GPIO_MODE_INPUT_PULLUP'?
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+                       ^~~~~~~~~~~~~~~~~~
+                       GPIO_MODE_INPUT_PULLUP
+../Src/main.c:213:24: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(GPIOA, &PinCinfg);
+                        ^
+In file included from ../Src/main.c:21:0:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Src/main.c:216:10: error: request for member 'GPIO_Pin_Number' in something not a structure or union
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_1;
+          ^
+../Src/main.c:216:27: error: 'GPIO_PIN_1' undeclared (first use in this function); did you mean 'GPIO_PIN_7'?
+  PinCinfg.GPIO_Pin_Number=GPIO_PIN_1;
+                           ^~~~~~~~~~
+                           GPIO_PIN_7
+../Src/main.c:217:10: error: request for member 'GPIO_MODE' in something not a structure or union
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+          ^
+../Src/main.c:218:24: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(GPIOA, &PinCinfg);
+                        ^
+In file included from ../Src/main.c:21:0:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Src/main.c:220:28: error: 'GPIO_PIN_0' undeclared (first use in this function); did you mean 'GPIO_PIN_1'?
+  MCAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, 1); //make A0 ground
+                            ^~~~~~~~~~
+                            GPIO_PIN_1
+../Src/main.c:221:28: error: 'GPIO_PIN_11' undeclared (first use in this function); did you mean 'GPIO_PIN_1'?
+  MCAL_GPIO_WritePin(GPIOA, GPIO_PIN_11, 1); //make A11 ground
+                            ^~~~~~~~~~~
+                            GPIO_PIN_1
+make: *** [Src/subdir.mk:24: Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:34:57 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:118:2: warning: implicit declaration of function 'dms' [-Wimplicit-function-declaration]
+  dms(200);
+  ^~~
+../Src/main.c: In function 'PIRs_Iint':
+../Src/main.c:210:2: error: unknown type name 'GPIO_PINConfigure_t'; did you mean 'GPIO_PinConfig_t'?
+  GPIO_PINConfigure_t PinCinfg;
+  ^~~~~~~~~~~~~~~~~~~
+  GPIO_PinConfig_t
+../Src/main.c:211:10: error: request for member 'GPIO_PINNumber' in something not a structure or union
+  PinCinfg.GPIO_PINNumber=GPIO_PIN7;
+          ^
+../Src/main.c:212:10: error: request for member 'GPIO_MODE' in something not a structure or union
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+          ^
+../Src/main.c:212:23: error: 'GPIO_MODE_INPUT_PU' undeclared (first use in this function); did you mean 'GPIO_MODE_INPUT_PULLUP'?
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+                       ^~~~~~~~~~~~~~~~~~
+                       GPIO_MODE_INPUT_PULLUP
+../Src/main.c:212:23: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c:213:24: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(GPIOA, &PinCinfg);
+                        ^
+In file included from ../Src/main.c:21:0:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+../Src/main.c:216:10: error: request for member 'GPIO_PINNumber' in something not a structure or union
+  PinCinfg.GPIO_PINNumber=GPIO_PIN1;
+          ^
+../Src/main.c:217:10: error: request for member 'GPIO_MODE' in something not a structure or union
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PU;
+          ^
+../Src/main.c:218:24: warning: passing argument 2 of 'MCAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  MCAL_GPIO_Init(GPIOA, &PinCinfg);
+                        ^
+In file included from ../Src/main.c:21:0:
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h:97:6: note: expected 'GPIO_PinConfig_t * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void MCAL_GPIO_Init(GPIO_TypeDef *GPIOx, GPIO_PinConfig_t* p_PinConfig);
+      ^~~~~~~~~~~~~~
+make: *** [Src/subdir.mk:24: Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:36:09 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:118:2: warning: implicit declaration of function 'dms' [-Wimplicit-function-declaration]
+  dms(200);
+  ^~~
+../Src/main.c: In function 'PIRs_Iint':
+../Src/main.c:212:11: error: 'GPIO_PinConfig_t {aka struct <anonymous>}' has no member named 'GPIO_MODE'; did you mean 'GPIO_Mode'?
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PULLUP;
+           ^~~~~~~~~
+           GPIO_Mode
+../Src/main.c:217:11: error: 'GPIO_PinConfig_t {aka struct <anonymous>}' has no member named 'GPIO_MODE'; did you mean 'GPIO_Mode'?
+  PinCinfg.GPIO_MODE = GPIO_MODE_INPUT_PULLUP;
+           ^~~~~~~~~
+           GPIO_Mode
+make: *** [Src/subdir.mk:24: Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:36:46 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:118:2: warning: implicit declaration of function 'dms' [-Wimplicit-function-declaration]
+  dms(200);
+  ^~~
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Drivers/HAL/LCD/lcd.o: In function `LCD_sendchar':
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Drivers/HAL/LCD/lcd.c:79: undefined reference to `MCAL_GPIO_WriteGroup'
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Drivers/HAL/LCD/lcd.c:94: undefined reference to `MCAL_GPIO_WriteGroup'
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Drivers/HAL/LCD/lcd.c:105: undefined reference to `MCAL_GPIO_WriteGroup'
+Src/main.o: In function `main':
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Src/main.c:118: undefined reference to `dms'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:59: Smart_Vehicle_Parking.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:37:15 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Drivers/HAL/LCD/lcd.o: In function `LCD_sendchar':
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Drivers/HAL/LCD/lcd.c:79: undefined reference to `MCAL_GPIO_WriteGroup'
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Drivers/HAL/LCD/lcd.c:94: undefined reference to `MCAL_GPIO_WriteGroup'
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Drivers/HAL/LCD/lcd.c:105: undefined reference to `MCAL_GPIO_WriteGroup'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:59: Smart_Vehicle_Parking.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:38:43 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Drivers/HAL/LCD/lcd.o: In function `LCD_sendchar':
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Drivers/HAL/LCD/lcd.c:79: undefined reference to `MCAL_GPIO_WriteGroup'
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Drivers/HAL/LCD/lcd.c:94: undefined reference to `MCAL_GPIO_WriteGroup'
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Drivers/HAL/LCD/lcd.c:105: undefined reference to `MCAL_GPIO_WriteGroup'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:59: Smart_Vehicle_Parking.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:39:11 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/USART/stm32f103c8_usart_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/USART/stm32f103c8_usart_driver.d" -MT"Drivers/MCAL/USART/stm32f103c8_usart_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/USART/stm32f103c8_usart_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/SPI/stm32f103c8_spi_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/SPI/stm32f103c8_spi_driver.d" -MT"Drivers/MCAL/SPI/stm32f103c8_spi_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/SPI/stm32f103c8_spi_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/GPIO/stm32f103c8_gpio_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/GPIO/stm32f103c8_gpio_driver.d" -MT"Drivers/MCAL/GPIO/stm32f103c8_gpio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/GPIO/stm32f103c8_gpio_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/EXTI/stm32f103c8_exti_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/EXTI/stm32f103c8_exti_driver.d" -MT"Drivers/MCAL/EXTI/stm32f103c8_exti_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/EXTI/stm32f103c8_exti_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/Mototrs/Servo_Motors/servo_motor.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/Mototrs/Servo_Motors/servo_motor.d" -MT"Drivers/HAL/Mototrs/Servo_Motors/servo_motor.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/Mototrs/Servo_Motors/servo_motor.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/LCD/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/LCD/lcd.d" -MT"Drivers/HAL/LCD/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/LCD/lcd.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/Keypad/keypad.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/Keypad/keypad.d" -MT"Drivers/HAL/Keypad/keypad.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/Keypad/keypad.o"
+../Drivers/HAL/LCD/lcd.c: In function 'LCD_sendchar':
+../Drivers/HAL/LCD/lcd.c:79:3: warning: implicit declaration of function 'MCAL_GPIO_WriteGroup'; did you mean 'MCAL_GPIO_WritePort'? [-Wimplicit-function-declaration]
+   MCAL_GPIO_WriteGroup(LCD->s_LCDDataPins.GPIOX
+   ^~~~~~~~~~~~~~~~~~~~
+   MCAL_GPIO_WritePort
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Drivers/HAL/LCD/lcd.o: In function `LCD_sendchar':
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Drivers/HAL/LCD/lcd.c:79: undefined reference to `MCAL_GPIO_WriteGroup'
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Drivers/HAL/LCD/lcd.c:94: undefined reference to `MCAL_GPIO_WriteGroup'
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Drivers/HAL/LCD/lcd.c:105: undefined reference to `MCAL_GPIO_WriteGroup'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:59: Smart_Vehicle_Parking.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:41:16 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/Keypad/keypad.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/Keypad/keypad.d" -MT"Drivers/HAL/Keypad/keypad.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/Keypad/keypad.o"
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Drivers/HAL/LCD/lcd.o: In function `LCD_sendchar':
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Drivers/HAL/LCD/lcd.c:79: undefined reference to `MCAL_GPIO_WriteGroup'
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Drivers/HAL/LCD/lcd.c:94: undefined reference to `MCAL_GPIO_WriteGroup'
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Drivers/HAL/LCD/lcd.c:105: undefined reference to `MCAL_GPIO_WriteGroup'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:59: Smart_Vehicle_Parking.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+13:11:02 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/TIM/stm32f103c8_tim_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/TIM/stm32f103c8_tim_driver.d" -MT"Drivers/MCAL/TIM/stm32f103c8_tim_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/TIM/stm32f103c8_tim_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/RCC/stm32f103c8_rcc_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/RCC/stm32f103c8_rcc_driver.d" -MT"Drivers/MCAL/RCC/stm32f103c8_rcc_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/RCC/stm32f103c8_rcc_driver.o"
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Drivers/HAL/LCD/lcd.o: In function `LCD_sendchar':
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Drivers/HAL/LCD/lcd.c:79: undefined reference to `MCAL_GPIO_WriteGroup'
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Drivers/HAL/LCD/lcd.c:94: undefined reference to `MCAL_GPIO_WriteGroup'
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Drivers/HAL/LCD/lcd.c:105: undefined reference to `MCAL_GPIO_WriteGroup'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:59: Smart_Vehicle_Parking.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+13:45:51 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/USART/stm32f103c8_usart_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/USART/stm32f103c8_usart_driver.d" -MT"Drivers/MCAL/USART/stm32f103c8_usart_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/USART/stm32f103c8_usart_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/SPI/stm32f103c8_spi_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/SPI/stm32f103c8_spi_driver.d" -MT"Drivers/MCAL/SPI/stm32f103c8_spi_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/SPI/stm32f103c8_spi_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/GPIO/stm32f103c8_gpio_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/GPIO/stm32f103c8_gpio_driver.d" -MT"Drivers/MCAL/GPIO/stm32f103c8_gpio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/GPIO/stm32f103c8_gpio_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/EXTI/stm32f103c8_exti_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/EXTI/stm32f103c8_exti_driver.d" -MT"Drivers/MCAL/EXTI/stm32f103c8_exti_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/EXTI/stm32f103c8_exti_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/Mototrs/Servo_Motors/servo_motor.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/Mototrs/Servo_Motors/servo_motor.d" -MT"Drivers/HAL/Mototrs/Servo_Motors/servo_motor.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/Mototrs/Servo_Motors/servo_motor.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/LCD/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/LCD/lcd.d" -MT"Drivers/HAL/LCD/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/LCD/lcd.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/Keypad/keypad.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/Keypad/keypad.d" -MT"Drivers/HAL/Keypad/keypad.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/Keypad/keypad.o"
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Smart_Vehicle_Parking.elf
+ 
+arm-none-eabi-objdump -h -S  Smart_Vehicle_Parking.elf  > "Smart_Vehicle_Parking.list"
+arm-none-eabi-objcopy  -O binary  Smart_Vehicle_Parking.elf  "Smart_Vehicle_Parking.bin"
+arm-none-eabi-size   Smart_Vehicle_Parking.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3672	     12	   1788	   5472	   1560	Smart_Vehicle_Parking.elf
+Finished building: default.size.stdout
+ 
+Finished building: Smart_Vehicle_Parking.bin
+ 
+Finished building: Smart_Vehicle_Parking.list
+ 
+13:48:28 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-size   Smart_Vehicle_Parking.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3672	     12	   1788	   5472	   1560	Smart_Vehicle_Parking.elf
+Finished building: default.size.stdout
+ 
+14:00:26 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/Keypad/keypad.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/Keypad/keypad.d" -MT"Drivers/HAL/Keypad/keypad.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/Keypad/keypad.o"
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Smart_Vehicle_Parking.elf
+ 
+arm-none-eabi-objdump -h -S  Smart_Vehicle_Parking.elf  > "Smart_Vehicle_Parking.list"
+arm-none-eabi-objcopy  -O binary  Smart_Vehicle_Parking.elf  "Smart_Vehicle_Parking.bin"
+arm-none-eabi-size   Smart_Vehicle_Parking.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3888	     52	   1748	   5688	   1638	Smart_Vehicle_Parking.elf
+Finished building: default.size.stdout
+ 
+Finished building: Smart_Vehicle_Parking.list
+Finished building: Smart_Vehicle_Parking.bin
+ 
+ 
+14:26:49 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'Store_IDs_From_Admin':
+../Src/main.c:257:8: warning: implicit declaration of function 'keypad_Read' [-Wimplicit-function-declaration]
+  while(keypad_Read() == 'N');
+        ^~~~~~~~~~~
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Src/main.o: In function `Store_IDs_From_Admin':
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Src/main.c:257: undefined reference to `keypad_Read'
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Src/main.c:258: undefined reference to `keypad_Read'
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Src/main.c:259: undefined reference to `keypad_Read'
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Src/main.c:267: undefined reference to `keypad_Read'
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Src/main.c:268: undefined reference to `keypad_Read'
+Src/main.o:C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Src/main.c:269: more undefined references to `keypad_Read' follow
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:59: Smart_Vehicle_Parking.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+14:30:19 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Smart_Vehicle_Parking.elf
+ 
+arm-none-eabi-objdump -h -S  Smart_Vehicle_Parking.elf  > "Smart_Vehicle_Parking.list"
+arm-none-eabi-objcopy  -O binary  Smart_Vehicle_Parking.elf  "Smart_Vehicle_Parking.bin"
+arm-none-eabi-size   Smart_Vehicle_Parking.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7060	     84	   1756	   8900	   22c4	Smart_Vehicle_Parking.elf
+Finished building: default.size.stdout
+ 
+Finished building: Smart_Vehicle_Parking.bin
+ 
+Finished building: Smart_Vehicle_Parking.list
+ 
+14:47:43 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:124:26: error: 'RFID_CARD_Enter' undeclared (first use in this function); did you mean 'RFID_CARD_EXIT'?
+   if(Search_Done == 1 && RFID_CARD_Enter !=0 && Available_Slots>'0')
+                          ^~~~~~~~~~~~~~~
+                          RFID_CARD_EXIT
+../Src/main.c:124:26: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c:144:10: warning: implicit declaration of function 'MCAL_GPIO_Read_Pin'; did you mean 'MCAL_GPIO_ReadPin'? [-Wimplicit-function-declaration]
+    while(MCAL_GPIO_Read_Pin(GPIOA, GPIO_PIN7) == LOGIC_HIGH) //Read the PIR1 state
+          ^~~~~~~~~~~~~~~~~~
+          MCAL_GPIO_ReadPin
+../Src/main.c:207:5: warning: implicit declaration of function 'MCAL_GPIO_Toggle_pin'; did you mean 'MCAL_GPIO_TogglePin'? [-Wimplicit-function-declaration]
+     MCAL_GPIO_Toggle_pin(GPIOA, GPIO_PIN_0);
+     ^~~~~~~~~~~~~~~~~~~~
+     MCAL_GPIO_TogglePin
+../Src/main.c:207:33: error: 'GPIO_PIN_0' undeclared (first use in this function); did you mean 'GPIO_PIN10'?
+     MCAL_GPIO_Toggle_pin(GPIOA, GPIO_PIN_0);
+                                 ^~~~~~~~~~
+                                 GPIO_PIN10
+../Src/main.c: At top level:
+../Src/main.c:228:1: error: expected identifier or '(' before 'return'
+ return 0;
+ ^~~~~~
+../Src/main.c:229:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [Src/subdir.mk:24: Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+14:48:43 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:124:26: error: 'RFID_CARD_Enter' undeclared (first use in this function); did you mean 'RFID_CARD_EXIT'?
+   if(Search_Done == 1 && RFID_CARD_Enter !=0 && Available_Slots>'0')
+                          ^~~~~~~~~~~~~~~
+                          RFID_CARD_EXIT
+../Src/main.c:124:26: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c:144:10: warning: implicit declaration of function 'MCAL_GPIO_Read_Pin'; did you mean 'MCAL_GPIO_ReadPin'? [-Wimplicit-function-declaration]
+    while(MCAL_GPIO_Read_Pin(GPIOA, GPIO_PIN7) == LOGIC_HIGH) //Read the PIR1 state
+          ^~~~~~~~~~~~~~~~~~
+          MCAL_GPIO_ReadPin
+../Src/main.c:210:30: error: 'GPIO_PIN_0' undeclared (first use in this function); did you mean 'GPIO_PIN10'?
+    MCAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, 1); //to ensure Red Led off after toggle
+                              ^~~~~~~~~~
+                              GPIO_PIN10
+../Src/main.c: At top level:
+../Src/main.c:228:1: error: expected identifier or '(' before 'return'
+ return 0;
+ ^~~~~~
+../Src/main.c:229:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [Src/subdir.mk:24: Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+14:48:59 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:124:26: error: 'RFID_CARD_Enter' undeclared (first use in this function); did you mean 'RFID_CARD_EXIT'?
+   if(Search_Done == 1 && RFID_CARD_Enter !=0 && Available_Slots>'0')
+                          ^~~~~~~~~~~~~~~
+                          RFID_CARD_EXIT
+../Src/main.c:124:26: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c:144:10: warning: implicit declaration of function 'MCAL_GPIO_Read_Pin'; did you mean 'MCAL_GPIO_ReadPin'? [-Wimplicit-function-declaration]
+    while(MCAL_GPIO_Read_Pin(GPIOA, GPIO_PIN7) == LOGIC_HIGH) //Read the PIR1 state
+          ^~~~~~~~~~~~~~~~~~
+          MCAL_GPIO_ReadPin
+../Src/main.c:210:30: error: 'GPIO_PIN_0' undeclared (first use in this function); did you mean 'GPIO_PIN10'?
+    MCAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, 1); //to ensure Red Led off after toggle
+                              ^~~~~~~~~~
+                              GPIO_PIN10
+make: *** [Src/subdir.mk:24: Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+14:49:41 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:138:4: error: 'RFID_CARD_Enter' undeclared (first use in this function); did you mean 'RFID_CARD_EXIT'?
+    RFID_CARD_Enter = 0;
+    ^~~~~~~~~~~~~~~
+    RFID_CARD_EXIT
+../Src/main.c:138:4: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c:144:10: warning: implicit declaration of function 'MCAL_GPIO_Read_Pin'; did you mean 'MCAL_GPIO_ReadPin'? [-Wimplicit-function-declaration]
+    while(MCAL_GPIO_Read_Pin(GPIOA, GPIO_PIN7) == LOGIC_HIGH) //Read the PIR1 state
+          ^~~~~~~~~~~~~~~~~~
+          MCAL_GPIO_ReadPin
+../Src/main.c:210:30: error: 'GPIO_PIN_0' undeclared (first use in this function); did you mean 'GPIO_PIN10'?
+    MCAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, 1); //to ensure Red Led off after toggle
+                              ^~~~~~~~~~
+                              GPIO_PIN10
+make: *** [Src/subdir.mk:24: Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+14:50:02 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:144:10: warning: implicit declaration of function 'MCAL_GPIO_Read_Pin'; did you mean 'MCAL_GPIO_ReadPin'? [-Wimplicit-function-declaration]
+    while(MCAL_GPIO_Read_Pin(GPIOA, GPIO_PIN7) == LOGIC_HIGH) //Read the PIR1 state
+          ^~~~~~~~~~~~~~~~~~
+          MCAL_GPIO_ReadPin
+../Src/main.c:210:30: error: 'GPIO_PIN_0' undeclared (first use in this function); did you mean 'GPIO_PIN10'?
+    MCAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, 1); //to ensure Red Led off after toggle
+                              ^~~~~~~~~~
+                              GPIO_PIN10
+../Src/main.c:210:30: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Src/subdir.mk:24: Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+14:50:24 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:144:10: warning: implicit declaration of function 'MCAL_GPIO_Read_Pin'; did you mean 'MCAL_GPIO_ReadPin'? [-Wimplicit-function-declaration]
+    while(MCAL_GPIO_Read_Pin(GPIOA, GPIO_PIN7) == LOGIC_HIGH) //Read the PIR1 state
+          ^~~~~~~~~~~~~~~~~~
+          MCAL_GPIO_ReadPin
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Src/main.o: In function `main':
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Src/main.c:144: undefined reference to `MCAL_GPIO_Read_Pin'
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Src/main.c:177: undefined reference to `MCAL_GPIO_Read_Pin'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:59: Smart_Vehicle_Parking.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+14:50:50 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:177:10: warning: implicit declaration of function 'MCAL_GPIO_Read_Pin'; did you mean 'MCAL_GPIO_ReadPin'? [-Wimplicit-function-declaration]
+    while(MCAL_GPIO_Read_Pin(GPIOA, GPIO_PIN1) == 1) //Read the PIR2 state
+          ^~~~~~~~~~~~~~~~~~
+          MCAL_GPIO_ReadPin
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Src/main.o: In function `main':
+C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Debug/../Src/main.c:177: undefined reference to `MCAL_GPIO_Read_Pin'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:59: Smart_Vehicle_Parking.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+14:51:31 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Smart_Vehicle_Parking.elf
+ 
+arm-none-eabi-objdump -h -S  Smart_Vehicle_Parking.elf  > "Smart_Vehicle_Parking.list"
+arm-none-eabi-objcopy  -O binary  Smart_Vehicle_Parking.elf  "Smart_Vehicle_Parking.bin"
+arm-none-eabi-size   Smart_Vehicle_Parking.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7908	     84	   1756	   9748	   2614	Smart_Vehicle_Parking.elf
+Finished building: default.size.stdout
+ 
+Finished building: Smart_Vehicle_Parking.bin
+ 
+Finished building: Smart_Vehicle_Parking.list
+ 
+14:52:30 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Smart_Vehicle_Parking.elf
+ 
+arm-none-eabi-objdump -h -S  Smart_Vehicle_Parking.elf  > "Smart_Vehicle_Parking.list"
+arm-none-eabi-objcopy  -O binary  Smart_Vehicle_Parking.elf  "Smart_Vehicle_Parking.bin"
+arm-none-eabi-size   Smart_Vehicle_Parking.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7908	     84	   1756	   9748	   2614	Smart_Vehicle_Parking.elf
+Finished building: default.size.stdout
+ 
+Finished building: Smart_Vehicle_Parking.bin
+ 
+Finished building: Smart_Vehicle_Parking.list
+ 

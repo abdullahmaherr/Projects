@@ -1,0 +1,7 @@
+1707127870067	Delete resource 'Smart_Vehicle_Parking/Drivers/MCAL/GPIO'
+1707127897410	Delete resource 'Smart_Vehicle_Parking/Drivers/MCAL/MCAL'
+1707127923444	Delete resource 'Smart_Vehicle_Parking/Drivers/MCAL/MCAL'
+1707127949011	Delete resource 'Smart_Vehicle_Parking/Drivers/MCAL/stm32f103c8_gpio_driver.c'
+1707127984909	Delete resource 'Smart_Vehicle_Parking/Drivers/Inc/stm32f103c8_gpio_driver.h'
+1707129622221	Delete resource 'Smart_Vehicle_Parking/Drivers/HAL/Keypad/keypad.c'
+1707129660919	Delete resource 'Smart_Vehicle_Parking/Drivers/Inc/keypad.h'

@@ -1,0 +1,8 @@
+stm32f103c8_rcc_driver.c:41:6:MCAL_RCC_initSYSClk	4	static
+stm32f103c8_rcc_driver.c:114:6:MCAL_RCC_enableCLK	16	static
+stm32f103c8_rcc_driver.c:131:6:MCAL_RCC_disableCLK	16	static
+stm32f103c8_rcc_driver.c:148:6:MCAL_RCC_reset	16	static
+stm32f103c8_rcc_driver.c:164:10:MCAL_RCC_getSYSCLK	4	static
+stm32f103c8_rcc_driver.c:183:10:MCAL_RCC_getHCLK	8	static
+stm32f103c8_rcc_driver.c:189:10:MCAL_RCC_GetPCLK1	8	static
+stm32f103c8_rcc_driver.c:195:10:MCAL_RCC_GetPCLK2	8	static

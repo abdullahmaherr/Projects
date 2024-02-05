@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="RFID_CARD_ENTER"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="RFID_CARD_Enter"/>
+			<item value="UP"/>
+			<item value="dms"/>
+			<item value="Bord"/>
+			<item value="&apos;N&apos;"/>
+			<item value="keypad_Read"/>
+			<item value="GPIO_PINConfigure_t"/>
+			<item value="GPIO_PIN_"/>
+			<item value="GPIO_SPEED_10M"/>
+			<item value="GPIO_MODE_OUTPUT_PP"/>
+			<item value="GPIO_Pin_Configure_t"/>
+			<item value="GPIO_Pin_Number"/>
+			<item value="GPIO_PIN_FALSE"/>
+			<item value="GPIO_PIN_TRUE"/>
+			<item value="BITSET"/>
+		</list>
+		<list key="replacehistory">
+			<item value="RFID_CARD_ENTER"/>
+			<item value="GATE_OPEN"/>
+			<item value="Delay_ms"/>
+			<item value="Board"/>
+			<item value="0"/>
+			<item value="HAL_KEYPAD_PressedKey"/>
+			<item value="GPIO_PinConfig_t"/>
+			<item value="GPIO_PIN"/>
+			<item value="GPIO_OUTPUT_SPEED_10M"/>
+			<item value="GPIO_MODE_OUTPUT_PUSHPULL"/>
+			<item value="GPIO_PinNumber"/>
+			<item value="LOGIC_LOW"/>
+			<item value="LOGIC_HIGH"/>
+			<item value="SET_BIT"/>
+			<item value="CLEAR_BIT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="663"/>
+		<item key="DIALOG_Y_ORIGIN" value="166"/>
+		<item key="DIALOG_WIDTH" value="284"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

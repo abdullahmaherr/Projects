@@ -1,0 +1,20 @@
+14:52:30 **** Incremental Build of configuration Debug for project Smart_Vehicle_Parking ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/EMBEDDED K/Smart_Vehicle_Parking/Smart_Vehicle_Parking/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 -o "Smart_Vehicle_Parking.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\EMBEDDED K\Smart_Vehicle_Parking\Smart_Vehicle_Parking\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Smart_Vehicle_Parking.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Smart_Vehicle_Parking.elf
+ 
+arm-none-eabi-objdump -h -S  Smart_Vehicle_Parking.elf  > "Smart_Vehicle_Parking.list"
+arm-none-eabi-objcopy  -O binary  Smart_Vehicle_Parking.elf  "Smart_Vehicle_Parking.bin"
+arm-none-eabi-size   Smart_Vehicle_Parking.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7908	     84	   1756	   9748	   2614	Smart_Vehicle_Parking.elf
+Finished building: default.size.stdout
+ 
+Finished building: Smart_Vehicle_Parking.bin
+ 
+Finished building: Smart_Vehicle_Parking.list
+ 
+
+14:52:36 Build Finished. 0 errors, 0 warnings. (took 6s.527ms)
+
