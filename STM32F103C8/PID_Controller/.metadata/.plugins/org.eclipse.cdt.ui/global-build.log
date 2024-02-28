@@ -1,0 +1,153 @@
+21:06:08 **** Build of configuration Debug for project PID_Controller ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 -mcpu=cortex-m3 -g3 -c -I"C:/Users/abdullah/Desktop/PID_Controller/PID_Controller/Drivers/Inc" -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c8tx.d" -MT"Startup/startup_stm32f103c8tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c8tx.o" "../Startup/startup_stm32f103c8tx.s"
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/PID_Controller/PID_Controller/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -gdwarf-2 "../Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/PID_Controller/PID_Controller/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc -gdwarf-2 "../Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/PID_Controller/PID_Controller/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/PID/pid.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/PID_Controller/PID_Controller/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/PID/pid.d" -MT"Drivers/PID/pid.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/PID/pid.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/USART/stm32f103c8_usart_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/PID_Controller/PID_Controller/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/USART/stm32f103c8_usart_driver.d" -MT"Drivers/MCAL/USART/stm32f103c8_usart_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/USART/stm32f103c8_usart_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/TIMER/stm32f103c8_timer_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/PID_Controller/PID_Controller/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/TIMER/stm32f103c8_timer_driver.d" -MT"Drivers/MCAL/TIMER/stm32f103c8_timer_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/TIMER/stm32f103c8_timer_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/SPI/stm32f103c8_spi_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/PID_Controller/PID_Controller/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/SPI/stm32f103c8_spi_driver.d" -MT"Drivers/MCAL/SPI/stm32f103c8_spi_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/SPI/stm32f103c8_spi_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/RCC/stm32f103c8_rcc_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/PID_Controller/PID_Controller/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/RCC/stm32f103c8_rcc_driver.d" -MT"Drivers/MCAL/RCC/stm32f103c8_rcc_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/RCC/stm32f103c8_rcc_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/I2C/stm32f103c8_i2c_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/PID_Controller/PID_Controller/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/I2C/stm32f103c8_i2c_driver.d" -MT"Drivers/MCAL/I2C/stm32f103c8_i2c_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/I2C/stm32f103c8_i2c_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/GPIO/stm32f103c8_gpio_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/PID_Controller/PID_Controller/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/GPIO/stm32f103c8_gpio_driver.d" -MT"Drivers/MCAL/GPIO/stm32f103c8_gpio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/GPIO/stm32f103c8_gpio_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/MCAL/EXTI/stm32f103c8_exti_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/PID_Controller/PID_Controller/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/MCAL/EXTI/stm32f103c8_exti_driver.d" -MT"Drivers/MCAL/EXTI/stm32f103c8_exti_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/MCAL/EXTI/stm32f103c8_exti_driver.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/LCD/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/PID_Controller/PID_Controller/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/LCD/lcd.d" -MT"Drivers/HAL/LCD/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/LCD/lcd.o"
+arm-none-eabi-gcc -gdwarf-2 "../Drivers/HAL/Keypad/keypad.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/PID_Controller/PID_Controller/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/HAL/Keypad/keypad.d" -MT"Drivers/HAL/Keypad/keypad.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/HAL/Keypad/keypad.o"
+arm-none-eabi-gcc -o "PID_Controller.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\PID_Controller\PID_Controller\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_Controller.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_Controller.elf
+ 
+arm-none-eabi-size   PID_Controller.elf 
+arm-none-eabi-objdump -h -S  PID_Controller.elf  > "PID_Controller.list"
+arm-none-eabi-objcopy  -O binary  PID_Controller.elf  "PID_Controller.bin"
+   text	   data	    bss	    dec	    hex	filename
+   1576	      8	   1872	   3456	    d80	PID_Controller.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_Controller.bin
+ 
+Finished building: PID_Controller.list
+ 
+21:49:47 **** Incremental Build of configuration Debug for project PID_Controller ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/PID_Controller/PID_Controller/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'EncoderISR':
+../Src/main.c:48:40: error: 'GPIO5' undeclared (first use in this function); did you mean 'GPIOC'?
+  sint32_t b = MCAL_GPIO_ReadPin(GPIOA, GPIO5);
+                                        ^~~~~
+                                        GPIOC
+../Src/main.c:48:40: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c: In function 'main':
+../Src/main.c:75:2: error: unknown type name 'PID_Controller'
+  PID_Controller pid;
+  ^~~~~~~~~~~~~~
+../Src/main.c:76:5: error: request for member 'Kp' in something not a structure or union
+  pid.Kp = 60.0;
+     ^
+../Src/main.c:77:5: error: request for member 'Ki' in something not a structure or union
+  pid.Ki = 0.01;
+     ^
+../Src/main.c:78:5: error: request for member 'Kd' in something not a structure or union
+  pid.Kd = 10.0;
+     ^
+../Src/main.c:79:5: error: request for member 'T' in something not a structure or union
+  pid.T = 1;
+     ^
+../Src/main.c:80:5: error: request for member 'MaxLimit' in something not a structure or union
+  pid.MaxLimit = 1000;
+     ^
+../Src/main.c:81:5: error: request for member 'MinLimit' in something not a structure or union
+  pid.MinLimit = -1000;
+     ^
+../Src/main.c:82:2: warning: implicit declaration of function 'PID_Init' [-Wimplicit-function-declaration]
+  PID_Init(&pid);
+  ^~~~~~~~
+../Src/main.c:89:13: warning: implicit declaration of function 'PID_Update' [-Wimplicit-function-declaration]
+   PID_Res = PID_Update(&pid, 200, Position);
+             ^~~~~~~~~~
+make: *** [Src/subdir.mk:24: Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+21:50:01 **** Incremental Build of configuration Debug for project PID_Controller ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/PID_Controller/PID_Controller/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'EncoderISR':
+../Src/main.c:48:40: error: 'GPIO5' undeclared (first use in this function); did you mean 'GPIOC'?
+  sint32_t b = MCAL_GPIO_ReadPin(GPIOA, GPIO5);
+                                        ^~~~~
+                                        GPIOC
+../Src/main.c:48:40: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c: In function 'main':
+../Src/main.c:75:2: error: unknown type name 'PID_Controller'
+  PID_Controller pid;
+  ^~~~~~~~~~~~~~
+../Src/main.c:76:5: error: request for member 'Kp' in something not a structure or union
+  pid.Kp = 60.0;
+     ^
+../Src/main.c:77:5: error: request for member 'Ki' in something not a structure or union
+  pid.Ki = 0.01;
+     ^
+../Src/main.c:78:5: error: request for member 'Kd' in something not a structure or union
+  pid.Kd = 10.0;
+     ^
+../Src/main.c:79:5: error: request for member 'T' in something not a structure or union
+  pid.T = 1;
+     ^
+../Src/main.c:80:5: error: request for member 'MaxLimit' in something not a structure or union
+  pid.MaxLimit = 1000;
+     ^
+../Src/main.c:81:5: error: request for member 'MinLimit' in something not a structure or union
+  pid.MinLimit = -1000;
+     ^
+../Src/main.c:82:2: warning: implicit declaration of function 'PID_Init' [-Wimplicit-function-declaration]
+  PID_Init(&pid);
+  ^~~~~~~~
+../Src/main.c:89:13: warning: implicit declaration of function 'PID_Update' [-Wimplicit-function-declaration]
+   PID_Res = PID_Update(&pid, 200, Position);
+             ^~~~~~~~~~
+make: *** [Src/subdir.mk:24: Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+21:50:22 **** Incremental Build of configuration Debug for project PID_Controller ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/PID_Controller/PID_Controller/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'EncoderISR':
+../Src/main.c:49:40: error: 'GPIO5' undeclared (first use in this function); did you mean 'GPIOC'?
+  sint32_t b = MCAL_GPIO_ReadPin(GPIOA, GPIO5);
+                                        ^~~~~
+                                        GPIOC
+../Src/main.c:49:40: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Src/subdir.mk:24: Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+21:50:48 **** Incremental Build of configuration Debug for project PID_Controller ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/PID_Controller/PID_Controller/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "PID_Controller.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\PID_Controller\PID_Controller\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_Controller.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_Controller.elf
+ 
+arm-none-eabi-objdump -h -S  PID_Controller.elf  > "PID_Controller.list"
+arm-none-eabi-objcopy  -O binary  PID_Controller.elf  "PID_Controller.bin"
+arm-none-eabi-size   PID_Controller.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7228	      8	   1880	   9116	   239c	PID_Controller.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_Controller.bin
+ 
+Finished building: PID_Controller.list
+ 
+21:54:05 **** Incremental Build of configuration Debug for project PID_Controller ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/PID_Controller/PID_Controller/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "PID_Controller.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\PID_Controller\PID_Controller\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_Controller.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_Controller.elf
+ 
+arm-none-eabi-objdump -h -S  PID_Controller.elf  > "PID_Controller.list"
+arm-none-eabi-objcopy  -O binary  PID_Controller.elf  "PID_Controller.bin"
+arm-none-eabi-size   PID_Controller.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7228	      8	   1880	   9116	   239c	PID_Controller.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_Controller.bin
+ 
+Finished building: PID_Controller.list
+ 

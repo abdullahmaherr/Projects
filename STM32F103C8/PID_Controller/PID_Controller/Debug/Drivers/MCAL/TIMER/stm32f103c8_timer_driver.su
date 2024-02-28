@@ -1,0 +1,10 @@
+stm32f103c8_timer_driver.c:49:6:MCAL_Tim_Init	24	static
+stm32f103c8_timer_driver.c:141:6:MCAL_Tim_Deinit	16	static
+stm32f103c8_timer_driver.c:179:6:MCAL_Tim_Start	16	static
+stm32f103c8_timer_driver.c:194:6:MCAL_Tim_Stop	16	static
+stm32f103c8_timer_driver.c:213:6:MCAL_Tim_PWM	32	static
+stm32f103c8_timer_driver.c:534:6:TIM1_UP_IRQHandler	8	static
+stm32f103c8_timer_driver.c:541:6:TIM1_CC_IRQHandler	8	static
+stm32f103c8_timer_driver.c:548:6:TIM2_IRQHandler	8	static
+stm32f103c8_timer_driver.c:555:6:TIM3_IRQHandler	8	static
+stm32f103c8_timer_driver.c:562:6:TIM4_IRQHandler	8	static

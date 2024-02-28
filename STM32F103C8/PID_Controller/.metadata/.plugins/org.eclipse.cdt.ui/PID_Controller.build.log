@@ -1,0 +1,20 @@
+21:54:05 **** Incremental Build of configuration Debug for project PID_Controller ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -I"C:/Users/abdullah/Desktop/PID_Controller/PID_Controller/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "PID_Controller.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdullah\Desktop\PID_Controller\PID_Controller\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_Controller.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_Controller.elf
+ 
+arm-none-eabi-objdump -h -S  PID_Controller.elf  > "PID_Controller.list"
+arm-none-eabi-objcopy  -O binary  PID_Controller.elf  "PID_Controller.bin"
+arm-none-eabi-size   PID_Controller.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7228	      8	   1880	   9116	   239c	PID_Controller.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_Controller.bin
+ 
+Finished building: PID_Controller.list
+ 
+
+21:54:10 Build Finished. 0 errors, 0 warnings. (took 5s.552ms)
+
